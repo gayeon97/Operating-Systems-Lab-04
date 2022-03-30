@@ -180,9 +180,9 @@ So, two possible invocations of the program are:
 ```
 
 Type the below instruction into the Terminal to compile the Paging.java program. When compiling, you have to make sure that you are compiling all the following files: 
-* Paging.java (the Pager program that simulates demand paging)
-* ProcessInfo.java (instances of ProcessInfo utilized by Paging.java to store each process information)
-* PageEntry.java. (an ArrayList of PageEntry utilized by the Paging.java represents the frame table used for demand paging by the Pager program)
+* **Paging.java** (the Pager program that simulates demand paging)
+* **ProcessInfo.java** (instances of ProcessInfo utilized by Paging.java to store each process information)
+* **PageEntry.java** (an ArrayList of PageEntry utilized by the Paging.java represents the frame table used for demand paging by the Pager program)
 
 
 ***Please ignore the java classes with title including "version" or "part", as I have multiple versions of the project that has partially working parts. This was done along the development process to avoid confusion or contaminating the working code. The three java programs that matter are "Paging.java", "ProcessInfo.java" and "PageEntry.java"".***
