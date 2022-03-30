@@ -160,6 +160,8 @@ Inside of the "src" folder, Paging.java file is located.
 
 As mentioned above, execute the program using 6 command line arguments: 5 positive integers followed by a string, with a space between each of them.  The program prints output to the screen as System.out in Java.
 
+**ONE IMPORTANT THING TO NOTE: the "random-numbers" file you are using MUST be in the same folder as the Paging.java file. So Paging.java file and "random-numbers" file HAVE to be in the same folder (namely, src folder inside of the Lab4 folder).**
+
 ## Verbose Flag <a name="verbose"></a>
 The program accepts an optional integer value for verbose flag. When the verbose flag is given, the program produce detailed output that's helpful for debugging. 
 
@@ -169,13 +171,13 @@ To get the corresponding debugging or “show random” output, enter the intege
 * value 11 (returns "show-random"" output and this would make 7 command line arguments to enter).
 The "-show-random" output gives more detailed output along with the random number chosen each time. This is a more verbose version.
 
-Two possible invocations of the program are:
+So, two possible invocations of the program are:
+```
+// WITHOUT the verbose flag at the end
 <program-name> <int> <int> <int> <int> <int> <string>
+// WITH the verbose flag
 <program-name> <int> <int> <int> <int> <int> <string> <int>
-
-
-**ONE IMPORTANT THING TO NOTE: the "random-numbers" file you are using MUST be in the same folder as the Paging.java file. So Paging.java file and "random-numbers" file HAVE to be in the same folder (namely, src folder inside of the Lab4 folder).**
-
+```
 
 Type the below instruction into the Terminal to compile the Paging.java program. When compiling, you have to make sure that you are compiling all the following files: 
 * Paging.java
