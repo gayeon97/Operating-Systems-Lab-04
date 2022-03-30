@@ -118,10 +118,10 @@ The total number of faults is 16 and the overall average residency is 2.6.
         for each job, following code was suggested by the professor and is used in
         the program:
         ```
-                    for (int ref=0; ref<q; ref++) {
-                        simulate this reference for this process
-                        calculate the next reference for this process
-                    }
+            for (int ref=0; ref<q; ref++) {
+                simulate this reference for this process
+                calculate the next reference for this process
+            }
     2. One effect is that after simulating the qth reference will the first reference for the next quantum be calculated. Hence, the random number file may be read before switching to the next process.
     3. Specifically, at the beginning of the run the first reference is given for process 1, namely 111*1=111 mod S. Now q references (the first to address 111 mod S) are simulated and the next q addresses are calculated.
     4. These calculations use one or two random numbers for each reference (two if a random reference occurs). So, the random number file is read once or twice for the last reference (q+1), even though the pager program will be context switching before simulating this reference. 
