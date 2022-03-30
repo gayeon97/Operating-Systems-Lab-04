@@ -149,7 +149,7 @@ The total number of faults is 16 and the overall average residency is 2.6.
 </details>
 
 - - - -
-### Instructions to run the code 
+## Instructions to run the code 
 
 To run on crackle1 on cims.nyu.edu server, please first go to crackle1, where the folder "Lab4" is uploaded. Then navigate to the Paging.java file like the following from crackle1:
 * Change directory to Lab4, then change directory to src.
@@ -157,7 +157,7 @@ Inside of the "src" folder, Paging.java file is located.
 
 As mentioned above, execute the program using 6 command line arguments: 5 positive integers followed by a string, with a space between each of them.  The program prints output to the screen as System.out in Java.
 
-#### Verbose Flag <a name="verbose"></a>
+## Verbose Flag <a name="verbose"></a>
 The program accepts an optional integer value for verbose flag. When the verbose flag is given, the program produce detailed output that's helpful for debugging. 
 
 To get the corresponding debugging or “show random” output, enter the integer value after the string. It can be one of the following values:
