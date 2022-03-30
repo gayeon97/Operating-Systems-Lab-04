@@ -107,28 +107,27 @@ The total number of faults is 16 and the overall average residency is 2.6.
     and Java is the remainder function, not the mod function. 
     For most (perhaps all) C/C++/Java compilers, (-2)%9 is -2; 
     whereas (-2) mod 9 = 7. So to calculate (w-5) mod S above, write (w-5+S)%S.
-    2. The big issue in this lab is the REplacement of pages. 
+2. The big issue in this lab is the REplacement of pages. 
     The placement question does arise early in the run when there are multiple 
     free frames. The highest numbered free frame is chosen so that I can get the
     same answers and debugging output as those provided by the professor. 
-    3. Since random numbers are involved, the random numbers are chosen in the 
+3. Since random numbers are involved, the random numbers are chosen in the 
     same order. Here is a non-obvious example. 
-        1. In the beginning of the program, the referenced word for each job is set
+    1. In the beginning of the program, the referenced word for each job is set
         to be 111*k as described in the lab. Now to simulate q (quantum) references
         for each job, following code was suggested by the professor and is used in
         the program:
-```
-            for (int ref=0; ref<q; ref++) {
-                simulate this reference for this process
-                calculate the next reference for this process
-            }
-```
-        2. One effect is that after simulating the qth reference will the first reference for the next quantum be calculated. Hence, the random number file may be read before switching to the next process.
-        3. Specifically, at the beginning of the run the first reference is given for process 1, namely 111*1=111 mod S. Now q references (the first to address 111 mod S) are simulated and the next q addresses are calculated.
-        4. These calculations use one or two random numbers for each reference (two if a random reference occurs). So, the random number file is read once or twice for the last reference (q+1), even though the pager program will be context switching before simulating this reference. 
-    4. When calculating the next word to reference, there are four cases with probability A, B, C, and 1-A-B-C.
-        1. Read a random number from the file and divide it by RAND MAX+1 = 2147483648 (RAND MAX is the largest value returned by the random number generator used to produce the file; it happens to equal Integer.MAX VALUE). This gives a quotient y satisfying 0≤y<1. 
-        2. If the random number was called r (an integer), 
+        ```
+                    for (int ref=0; ref<q; ref++) {
+                        simulate this reference for this process
+                        calculate the next reference for this process
+                    }
+    2. One effect is that after simulating the qth reference will the first reference for the next quantum be calculated. Hence, the random number file may be read before switching to the next process.
+    3. Specifically, at the beginning of the run the first reference is given for process 1, namely 111*1=111 mod S. Now q references (the first to address 111 mod S) are simulated and the next q addresses are calculated.
+    4. These calculations use one or two random numbers for each reference (two if a random reference occurs). So, the random number file is read once or twice for the last reference (q+1), even though the pager program will be context switching before simulating this reference. 
+4. When calculating the next word to reference, there are four cases with probability A, B, C, and 1-A-B-C.
+    1. Read a random number from the file and divide it by RAND MAX+1 = 2147483648 (RAND MAX is the largest value returned by the random number generator used to produce the file; it happens to equal Integer.MAX VALUE). This gives a quotient y satisfying 0≤y<1. 
+    2. If the random number was called r (an integer), 
 ```
             the statement you want in Java is (note the 1d):
                 double y = r / (Integer.MAX VALUE + 1d)
