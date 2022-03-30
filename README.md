@@ -32,7 +32,7 @@ The pager program is invoked with 6 command line arguments, 5 positive integers 
 The driver reads all inputs first, then simulates N memory references per program, and produces all output.
 - - - -
 ### Program Specification ###
-***I would like to make it clear that the following specification is taken from the lab instructon written by Professor Allan Gottlieb, distributed to our OS class by Professor Yan Shvartzshnaider. I have made some edits, but the writing is Professor Gottlieb's. Please refer to the linked file for the actual lab instruction.***
+***I would like to make it clear that the following specification is taken from the lab instructon written by Professor Allan Gottlieb, distributed to our OS class by Professor Yan Shvartzshnaider. I have made some edits, but the writing is Professor Gottlieb's. Please refer to the [linked file](https://github.com/gayeon97/Operating-Systems-Lab-04/blob/main/Demand_Paging_original_instructions.pdf) for the actual lab instruction.***
 
 The driver models locatliy by ensuring that:
 * a fraction A of the references are to the address one higher than the current (representing a sequential memory reference)
