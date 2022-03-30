@@ -1,0 +1,4511 @@
+Last login: Fri Apr 17 14:49:38 on ttys001
+-bash: /Users/gayeonpark/.profile: No such file or directory
+gayeonpark@Gayeons-MacBook-Pro ~
+$ cd Documents/OS/Lab4/src
+gayeonpark@Gayeons-MacBook-Pro ~/Documents/OS/Lab4/src
+$ javac Paging.java
+gayeonpark@Gayeons-MacBook-Pro ~/Documents/OS/Lab4/src
+$ java Paging 20 10 10 4 10 lru 11
+
+The machine size is 20.
+The page size is 10.
+The process size is 10.
+The job mix number is 4.
+The number of references per process is 10.
+The replacement algorithm is lru.
+The level of debugging output is 11.
+1 references word 1.
+1 uses random number: 1804289383
+This is y: 0.840188
+do case 2
+1 references word 6.
+1 uses random number: 846930886
+This is y: 0.394383
+do case 1
+1 references word 7.
+1 uses random number: 1681692777
+This is y: 0.783099
+do case 2
+for next quantum, 1 will reference word 2.
+
+2 references word 2.
+1 uses random number: 1714636915
+This is y: 0.798440
+do case 3
+2 references word 6.
+1 uses random number: 1957747793
+This is y: 0.911647
+do case 3
+2 references word 0.
+1 uses random number: 424238335
+This is y: 0.197551
+do case 1
+for next quantum, 2 will reference word 1.
+
+3 references word 3.
+1 uses random number: 719885386
+This is y: 0.335223
+do case 1
+3 references word 4.
+1 uses random number: 1649760492
+This is y: 0.768230
+do case 2
+3 references word 9.
+1 uses random number: 596516649
+This is y: 0.277775
+do case 1
+for next quantum, 3 will reference word 0.
+
+4 references word 4.
+1 uses random number: 1189641421
+This is y: 0.553970
+do case 2
+4 references word 9.
+1 uses random number: 1025202362
+This is y: 0.477397
+do case 1
+4 references word 0.
+1 uses random number: 1350490027
+This is y: 0.628871
+do case 3
+for next quantum, 4 will reference word 4.
+
+1 references word 4.
+1 uses random number: 783368690
+This is y: 0.364784
+do case 1
+1 references word 5.
+1 uses random number: 1102520059
+This is y: 0.513401
+do case 1
+1 references word 6.
+1 uses random number: 2044897763
+This is y: 0.952230
+do case 2
+for next quantum, 1 will reference word 1.
+
+2 references word 1.
+1 uses random number: 1967513926
+This is y: 0.916195
+do case 3
+2 references word 5.
+1 uses random number: 1365180540
+This is y: 0.635712
+do case 1
+2 references word 6.
+1 uses random number: 1540383426
+This is y: 0.717297
+do case 1
+for next quantum, 2 will reference word 7.
+
+3 references word 7.
+1 uses random number: 304089172
+This is y: 0.141603
+do case 1
+3 references word 8.
+1 uses random number: 1303455736
+This is y: 0.606969
+do case 1
+3 references word 9.
+1 uses random number: 35005211
+This is y: 0.016301
+do case 1
+for next quantum, 3 will reference word 0.
+
+4 references word 0.
+1 uses random number: 521595368
+This is y: 0.242887
+do case 1
+4 references word 1.
+1 uses random number: 294702567
+This is y: 0.137232
+do case 1
+4 references word 2.
+1 uses random number: 1726956429
+This is y: 0.804177
+do case 4
+for next quantum, 4 will reference word 3.
+
+1 references word 3.
+1 uses random number: 336465782
+This is y: 0.156679
+do case 1
+1 references word 4.
+1 uses random number: 861021530
+This is y: 0.400944
+do case 1
+1 references word 5.
+1 uses random number: 278722862
+This is y: 0.129790
+do case 1
+for next quantum, 1 will reference word 6.
+
+2 references word 6.
+1 uses random number: 233665123
+This is y: 0.108809
+do case 1
+2 references word 7.
+1 uses random number: 2145174067
+This is y: 0.998925
+do case 3
+2 references word 1.
+1 uses random number: 468703135
+This is y: 0.218257
+do case 1
+for next quantum, 2 will reference word 2.
+
+3 references word 2.
+1 uses random number: 1101513929
+This is y: 0.512932
+do case 1
+3 references word 3.
+1 uses random number: 1801979802
+This is y: 0.839112
+do case 2
+3 references word 8.
+1 uses random number: 1315634022
+This is y: 0.612640
+do case 1
+for next quantum, 3 will reference word 9.
+
+4 references word 9.
+1 uses random number: 635723058
+This is y: 0.296032
+do case 1
+4 references word 0.
+1 uses random number: 1369133069
+This is y: 0.637552
+do case 3
+4 references word 4.
+1 uses random number: 1125898167
+This is y: 0.524287
+do case 2
+for next quantum, 4 will reference word 9.
+
+1 references word 9.
+1 uses random number: 1059961393
+This is y: 0.493583
+do case 1
+1 references word 0.
+1 uses random number: 2089018456
+This is y: 0.972775
+do case 2
+1 references word 5.
+1 uses random number: 628175011
+This is y: 0.292517
+do case 1
+for next quantum, 1 will reference word 6.
+
+2 references word 6.
+1 uses random number: 1656478042
+This is y: 0.771358
+do case 3
+2 references word 0.
+1 uses random number: 1131176229
+This is y: 0.526745
+do case 1
+2 references word 1.
+1 uses random number: 1653377373
+This is y: 0.769914
+do case 3
+for next quantum, 2 will reference word 5.
+
+3 references word 5.
+1 uses random number: 859484421
+This is y: 0.400229
+do case 1
+3 references word 6.
+1 uses random number: 1914544919
+This is y: 0.891529
+do case 3
+3 references word 0.
+1 uses random number: 608413784
+This is y: 0.283315
+do case 1
+for next quantum, 3 will reference word 1.
+
+4 references word 1.
+1 uses random number: 756898537
+This is y: 0.352458
+do case 1
+4 references word 2.
+1 uses random number: 1734575198
+This is y: 0.807725
+do case 4
+4 references word 3.
+1 uses random number: 1973594324
+This is y: 0.919026
+do case 4
+for next quantum, 4 will reference word 4.
+
+1 references word 4.
+1 uses random number: 149798315
+This is y: 0.069755
+do case 1
+1 references word 5.
+1 uses random number: 2038664370
+This is y: 0.949327
+do case 2
+1 references word 0.
+1 uses random number: 1129566413
+This is y: 0.525995
+do case 1
+for next quantum, 1 will reference word 1.
+
+2 references word 1.
+1 uses random number: 184803526
+This is y: 0.086056
+do case 1
+2 references word 2.
+1 uses random number: 412776091
+This is y: 0.192214
+do case 1
+2 references word 3.
+1 uses random number: 1424268980
+This is y: 0.663227
+do case 1
+for next quantum, 2 will reference word 4.
+
+3 references word 4.
+1 uses random number: 1911759956
+This is y: 0.890233
+do case 3
+3 references word 8.
+1 uses random number: 749241873
+This is y: 0.348893
+do case 1
+3 references word 9.
+1 uses random number: 137806862
+This is y: 0.064171
+do case 1
+for next quantum, 3 will reference word 0.
+
+4 references word 0.
+1 uses random number: 42999170
+This is y: 0.020023
+do case 1
+4 references word 1.
+1 uses random number: 982906996
+This is y: 0.457702
+do case 1
+4 references word 2.
+1 uses random number: 135497281
+This is y: 0.063096
+do case 1
+for next quantum, 4 will reference word 3.
+
+1 references word 3.
+1 uses random number: 511702305
+This is y: 0.238280
+do case 1
+1 references word 4.
+1 uses random number: 2084420925
+This is y: 0.970634
+do case 2
+1 references word 9.
+1 uses random number: 1937477084
+This is y: 0.902208
+do case 2
+for next quantum, 1 will reference word 4.
+
+2 references word 4.
+1 uses random number: 1827336327
+This is y: 0.850920
+do case 3
+2 references word 8.
+1 uses random number: 572660336
+This is y: 0.266666
+do case 1
+2 references word 9.
+1 uses random number: 1159126505
+This is y: 0.539760
+do case 1
+for next quantum, 2 will reference word 0.
+
+3 references word 0.
+1 uses random number: 805750846
+This is y: 0.375207
+do case 1
+3 references word 1.
+1 uses random number: 1632621729
+This is y: 0.760249
+do case 2
+3 references word 6.
+1 uses random number: 1100661313
+This is y: 0.512535
+do case 1
+for next quantum, 3 will reference word 7.
+
+4 references word 7.
+1 uses random number: 1433925857
+This is y: 0.667724
+do case 3
+4 references word 1.
+1 uses random number: 1141616124
+This is y: 0.531606
+do case 2
+4 references word 6.
+1 uses random number: 84353895
+This is y: 0.039280
+do case 1
+for next quantum, 4 will reference word 7.
+
+1 references word 7.
+1 uses random number: 939819582
+This is y: 0.437638
+do case 1
+1 references word 8.
+1 uses random number: 2001100545
+This is y: 0.931835
+do case 2
+1 references word 3.
+1 uses random number: 1998898814
+This is y: 0.930810
+do case 2
+for next quantum, 1 will reference word 8.
+
+2 references word 8.
+1 uses random number: 1548233367
+This is y: 0.720952
+do case 1
+2 references word 9.
+1 uses random number: 610515434
+This is y: 0.284293
+do case 1
+2 references word 0.
+1 uses random number: 1585990364
+This is y: 0.738534
+do case 1
+for next quantum, 2 will reference word 1.
+
+3 references word 1.
+1 uses random number: 1374344043
+This is y: 0.639979
+do case 1
+3 references word 2.
+1 uses random number: 760313750
+This is y: 0.354049
+do case 1
+3 references word 3.
+1 uses random number: 1477171087
+This is y: 0.687861
+do case 1
+for next quantum, 3 will reference word 4.
+
+4 references word 4.
+1 uses random number: 356426808
+This is y: 0.165974
+do case 1
+4 references word 5.
+1 uses random number: 945117276
+This is y: 0.440105
+do case 1
+4 references word 6.
+1 uses random number: 1889947178
+This is y: 0.880075
+do case 4
+for next quantum, 4 will reference word 7.
+
+1 references word 7.
+1 uses random number: 1780695788
+This is y: 0.829201
+do case 2
+1 references word 2.
+1 uses random number: 709393584
+This is y: 0.330337
+do case 1
+1 references word 3.
+1 uses random number: 491705403
+This is y: 0.228968
+do case 1
+for next quantum, 1 will reference word 4.
+
+2 references word 4.
+1 uses random number: 1918502651
+This is y: 0.893372
+do case 3
+2 references word 8.
+1 uses random number: 752392754
+This is y: 0.350360
+do case 1
+2 references word 9.
+1 uses random number: 1474612399
+This is y: 0.686670
+do case 1
+for next quantum, 2 will reference word 0.
+
+3 references word 0.
+1 uses random number: 2053999932
+This is y: 0.956468
+do case 3
+3 references word 4.
+1 uses random number: 1264095060
+This is y: 0.588640
+do case 1
+3 references word 5.
+1 uses random number: 1411549676
+This is y: 0.657304
+do case 1
+for next quantum, 3 will reference word 6.
+
+4 references word 6.
+1 uses random number: 1843993368
+This is y: 0.858676
+do case 4
+4 references word 7.
+1 uses random number: 943947739
+This is y: 0.439560
+do case 1
+4 references word 8.
+1 uses random number: 1984210012
+This is y: 0.923970
+do case 4
+for next quantum, 4 will reference word 9.
+
+1 references word 9.
+1 uses random number: 855636226
+This is y: 0.398437
+do case 1
+1 references word 0.
+1 uses random number: 1749698586
+This is y: 0.814767
+do case 2
+1 references word 5.
+1 uses random number: 1469348094
+This is y: 0.684219
+do case 1
+for next quantum, 1 will reference word 6.
+
+2 references word 6.
+1 uses random number: 1956297539
+This is y: 0.910972
+do case 3
+2 references word 0.
+1 uses random number: 1036140795
+This is y: 0.482491
+do case 1
+2 references word 1.
+1 uses random number: 463480570
+This is y: 0.215825
+do case 1
+for next quantum, 2 will reference word 2.
+
+3 references word 2.
+1 uses random number: 2040651434
+This is y: 0.950252
+do case 3
+3 references word 6.
+1 uses random number: 1975960378
+This is y: 0.920128
+do case 3
+3 references word 0.
+1 uses random number: 317097467
+This is y: 0.147660
+do case 1
+for next quantum, 3 will reference word 1.
+
+4 references word 1.
+1 uses random number: 1892066601
+This is y: 0.881062
+do case 4
+4 references word 2.
+1 uses random number: 1376710097
+This is y: 0.641081
+do case 3
+4 references word 6.
+1 uses random number: 927612902
+This is y: 0.431953
+do case 1
+for next quantum, 4 will reference word 7.
+
+1 references word 7.
+1 uses random number: 1330573317
+This is y: 0.619596
+do case 1
+1 references word 8.
+1 uses random number: 603570492
+This is y: 0.281059
+do case 1
+1 references word 9.
+1 uses random number: 1687926652
+This is y: 0.786002
+do case 2
+for next quantum, 1 will reference word 4.
+
+2 references word 4.
+1 uses random number: 660260756
+This is y: 0.307458
+do case 1
+2 references word 5.
+1 uses random number: 959997301
+This is y: 0.447034
+do case 1
+2 references word 6.
+1 uses random number: 485560280
+This is y: 0.226107
+do case 1
+for next quantum, 2 will reference word 7.
+
+3 references word 7.
+1 uses random number: 402724286
+This is y: 0.187533
+do case 1
+3 references word 8.
+1 uses random number: 593209441
+This is y: 0.276235
+do case 1
+3 references word 9.
+1 uses random number: 1194953865
+This is y: 0.556444
+do case 1
+for next quantum, 3 will reference word 0.
+
+4 references word 0.
+1 uses random number: 894429689
+This is y: 0.416501
+do case 1
+4 references word 1.
+1 uses random number: 364228444
+This is y: 0.169607
+do case 1
+4 references word 2.
+1 uses random number: 1947346619
+This is y: 0.906804
+do case 4
+for next quantum, 4 will reference word 3.
+
+1 references word 3.
+1 uses random number: 221558440
+This is y: 0.103171
+do case 1
+1 references word 4.
+1 uses random number: 270744729
+This is y: 0.126075
+do case 1
+1 references word 5.
+1 uses random number: 1063958031
+This is y: 0.495444
+do case 1
+for next quantum, 1 will reference word 6.
+
+2 references word 6.
+1 uses random number: 1633108117
+This is y: 0.760475
+do case 3
+2 references word 0.
+1 uses random number: 2114738097
+This is y: 0.984752
+do case 3
+2 references word 4.
+1 uses random number: 2007905771
+This is y: 0.935004
+do case 3
+for next quantum, 2 will reference word 8.
+
+3 references word 8.
+1 uses random number: 1469834481
+This is y: 0.684445
+do case 1
+3 references word 9.
+1 uses random number: 822890675
+This is y: 0.383188
+do case 1
+3 references word 0.
+1 uses random number: 1610120709
+This is y: 0.749771
+do case 1
+for next quantum, 3 will reference word 1.
+
+4 references word 1.
+1 uses random number: 791698927
+This is y: 0.368664
+do case 1
+4 references word 2.
+1 uses random number: 631704567
+This is y: 0.294160
+do case 1
+4 references word 3.
+1 uses random number: 498777856
+This is y: 0.232262
+do case 1
+for next quantum, 4 will reference word 4.
+
+1 references word 4.
+1 uses random number: 1255179497
+This is y: 0.584489
+do case 1
+1 references word 5.
+1 uses random number: 524872353
+This is y: 0.244413
+do case 1
+1 references word 6.
+1 uses random number: 327254586
+This is y: 0.152390
+do case 1
+for next quantum, 1 will reference word 7.
+
+2 references word 7.
+1 uses random number: 1572276965
+This is y: 0.732149
+do case 1
+2 references word 8.
+1 uses random number: 269455306
+This is y: 0.125475
+do case 1
+2 references word 9.
+1 uses random number: 1703964683
+This is y: 0.793470
+do case 3
+for next quantum, 2 will reference word 3.
+
+3 references word 3.
+1 uses random number: 352406219
+This is y: 0.164102
+do case 1
+3 references word 4.
+1 uses random number: 1600028624
+This is y: 0.745071
+do case 1
+3 references word 5.
+1 uses random number: 160051528
+This is y: 0.074530
+do case 1
+for next quantum, 3 will reference word 6.
+
+4 references word 6.
+1 uses random number: 2040332871
+This is y: 0.950104
+do case 4
+4 references word 7.
+1 uses random number: 112805732
+This is y: 0.052529
+do case 1
+4 references word 8.
+1 uses random number: 1120048829
+This is y: 0.521563
+do case 2
+for next quantum, 4 will reference word 3.
+
+1 references word 3.
+1 uses random number: 378409503
+This is y: 0.176211
+do case 1
+1 references word 4.
+1 uses random number: 515530019
+This is y: 0.240062
+do case 1
+1 references word 5.
+1 uses random number: 1713258270
+This is y: 0.797798
+do case 2
+for next quantum, 1 will reference word 0.
+
+2 references word 0.
+1 uses random number: 1573363368
+This is y: 0.732654
+do case 1
+2 references word 1.
+1 uses random number: 1409959708
+This is y: 0.656564
+do case 1
+2 references word 2.
+1 uses random number: 2077486715
+This is y: 0.967405
+do case 3
+for next quantum, 2 will reference word 6.
+
+3 references word 6.
+1 uses random number: 1373226340
+This is y: 0.639458
+do case 1
+3 references word 7.
+1 uses random number: 1631518149
+This is y: 0.759735
+do case 2
+3 references word 2.
+1 uses random number: 200747796
+This is y: 0.093480
+do case 1
+for next quantum, 3 will reference word 3.
+
+4 references word 3.
+1 uses random number: 289700723
+This is y: 0.134902
+do case 1
+4 references word 4.
+1 uses random number: 1117142618
+This is y: 0.520210
+do case 2
+4 references word 9.
+1 uses random number: 168002245
+This is y: 0.078232
+do case 1
+for next quantum, 4 will reference word 0.
+
+1 references word 0.
+1 uses random number: 150122846
+This is y: 0.069906
+do case 1
+1 references word 1.
+1 uses random number: 439493451
+This is y: 0.204655
+do case 1
+1 references word 2.
+1 uses random number: 990892921
+This is y: 0.461420
+do case 1
+for next quantum, 1 will reference word 3.
+
+2 references word 3.
+1 uses random number: 1760243555
+This is y: 0.819677
+do case 3
+2 references word 7.
+1 uses random number: 1231192379
+This is y: 0.573319
+do case 1
+2 references word 8.
+1 uses random number: 1622597488
+This is y: 0.755581
+do case 3
+for next quantum, 2 will reference word 2.
+
+3 references word 2.
+1 uses random number: 111537764
+This is y: 0.051939
+do case 1
+3 references word 3.
+1 uses random number: 338888228
+This is y: 0.157807
+do case 1
+3 references word 4.
+1 uses random number: 2147469841
+This is y: 0.999994
+do case 3
+for next quantum, 3 will reference word 8.
+
+4 references word 8.
+1 uses random number: 438792350
+This is y: 0.204329
+do case 1
+4 references word 9.
+1 uses random number: 1911165193
+This is y: 0.889956
+do case 4
+4 references word 0.
+1 uses random number: 269441500
+This is y: 0.125468
+do case 1
+for next quantum, 4 will reference word 1.
+
+1 references word 1.
+1 uses random number: 2142757034
+This is y: 0.997799
+do case 2
+1 references word 6.
+1 uses random number: 116087764
+This is y: 0.054058
+do case 1
+1 references word 7.
+1 uses random number: 1869470124
+This is y: 0.870540
+do case 2
+for next quantum, 1 will reference word 2.
+
+2 references word 2.
+1 uses random number: 155324914
+This is y: 0.072329
+do case 1
+2 references word 3.
+1 uses random number: 8936987
+This is y: 0.004162
+do case 1
+2 references word 4.
+1 uses random number: 1982275856
+This is y: 0.923069
+do case 3
+for next quantum, 2 will reference word 8.
+
+3 references word 8.
+1 uses random number: 1275373743
+This is y: 0.593892
+do case 1
+3 references word 9.
+1 uses random number: 387346491
+This is y: 0.180372
+do case 1
+3 references word 0.
+1 uses random number: 350322227
+This is y: 0.163131
+do case 1
+for next quantum, 3 will reference word 1.
+
+4 references word 1.
+1 uses random number: 841148365
+This is y: 0.391690
+do case 1
+4 references word 2.
+1 uses random number: 1960709859
+This is y: 0.913027
+do case 4
+4 references word 3.
+1 uses random number: 1760281936
+This is y: 0.819695
+do case 4
+for next quantum, 4 will reference word 4.
+
+1 references word 4.
+1 uses random number: 771151432
+This is y: 0.359095
+do case 1
+1 references word 5.
+1 uses random number: 1186452551
+This is y: 0.552485
+do case 1
+1 references word 6.
+1 uses random number: 1244316437
+This is y: 0.579430
+do case 1
+for next quantum, 1 will reference word 7.
+
+2 references word 7.
+1 uses random number: 971899228
+This is y: 0.452576
+do case 1
+2 references word 8.
+1 uses random number: 1476153275
+This is y: 0.687387
+do case 1
+2 references word 9.
+1 uses random number: 213975407
+This is y: 0.099640
+do case 1
+for next quantum, 2 will reference word 0.
+
+3 references word 0.
+1 uses random number: 1139901474
+This is y: 0.530808
+do case 1
+3 references word 1.
+1 uses random number: 1626276121
+This is y: 0.757294
+do case 2
+3 references word 6.
+1 uses random number: 653468858
+This is y: 0.304295
+do case 1
+for next quantum, 3 will reference word 7.
+
+4 references word 7.
+1 uses random number: 2130794395
+This is y: 0.992228
+do case 4
+4 references word 8.
+1 uses random number: 1239036029
+This is y: 0.576971
+do case 2
+4 references word 3.
+1 uses random number: 1884661237
+This is y: 0.877614
+do case 4
+for next quantum, 4 will reference word 4.
+
+1 references word 4.
+1 uses random number: 1605908235
+This is y: 0.747809
+do case 1
+1 references word 5.
+1 uses random number: 1350573793
+This is y: 0.628910
+do case 1
+1 references word 6.
+1 uses random number: 76065818
+This is y: 0.035421
+do case 1
+for next quantum, 1 will reference word 7.
+
+2 references word 7.
+1 uses random number: 1605894428
+This is y: 0.747803
+do case 1
+2 references word 8.
+1 uses random number: 1789366143
+This is y: 0.833239
+do case 3
+2 references word 2.
+1 uses random number: 1987231011
+This is y: 0.925377
+do case 3
+for next quantum, 2 will reference word 6.
+
+3 references word 6.
+1 uses random number: 1875335928
+This is y: 0.873271
+do case 2
+3 references word 1.
+1 uses random number: 1784639529
+This is y: 0.831038
+do case 2
+3 references word 6.
+1 uses random number: 2103318776
+This is y: 0.979434
+do case 3
+for next quantum, 3 will reference word 0.
+
+4 references word 0.
+1 uses random number: 1597322404
+This is y: 0.743811
+do case 3
+4 references word 4.
+1 uses random number: 1939964443
+This is y: 0.903366
+do case 4
+4 references word 5.
+1 uses random number: 2112255763
+This is y: 0.983596
+do case 4
+for next quantum, 4 will reference word 6.
+
+1 references word 6.
+1 uses random number: 1432114613
+This is y: 0.666880
+do case 1
+1 references word 7.
+1 uses random number: 1067854538
+This is y: 0.497259
+do case 1
+1 references word 8.
+1 uses random number: 352118606
+This is y: 0.163968
+do case 1
+for next quantum, 1 will reference word 9.
+
+2 references word 9.
+1 uses random number: 1782436840
+This is y: 0.830012
+do case 3
+2 references word 3.
+1 uses random number: 1909002904
+This is y: 0.888949
+do case 3
+2 references word 7.
+1 uses random number: 165344818
+This is y: 0.076995
+do case 1
+for next quantum, 2 will reference word 8.
+
+3 references word 8.
+1 uses random number: 1395235128
+This is y: 0.649707
+do case 1
+3 references word 9.
+1 uses random number: 532670688
+This is y: 0.248044
+do case 1
+3 references word 0.
+1 uses random number: 1351797369
+This is y: 0.629480
+do case 1
+for next quantum, 3 will reference word 1.
+
+4 references word 1.
+1 uses random number: 492067917
+This is y: 0.229137
+do case 1
+4 references word 2.
+1 uses random number: 1504569917
+This is y: 0.700620
+do case 3
+4 references word 6.
+1 uses random number: 680466996
+This is y: 0.316867
+do case 1
+for next quantum, 4 will reference word 7.
+
+1 references word 7.
+1 uses random number: 706043324
+This is y: 0.328777
+do case 1
+1 references word 8.
+1 uses random number: 496987743
+This is y: 0.231428
+do case 1
+1 references word 9.
+1 uses random number: 159259470
+This is y: 0.074161
+do case 1
+for next quantum, 1 will reference word 0.
+
+2 references word 0.
+1 uses random number: 1359512183
+This is y: 0.633072
+do case 1
+2 references word 1.
+1 uses random number: 480298490
+This is y: 0.223656
+do case 1
+2 references word 2.
+1 uses random number: 1398295499
+This is y: 0.651132
+do case 1
+for next quantum, 2 will reference word 3.
+
+3 references word 3.
+1 uses random number: 1096689772
+This is y: 0.510686
+do case 1
+3 references word 4.
+1 uses random number: 2086206725
+This is y: 0.971466
+do case 3
+3 references word 8.
+1 uses random number: 601385644
+This is y: 0.280042
+do case 1
+for next quantum, 3 will reference word 9.
+
+4 references word 9.
+1 uses random number: 1172755590
+This is y: 0.546107
+do case 2
+4 references word 4.
+1 uses random number: 1544617505
+This is y: 0.719269
+do case 3
+4 references word 8.
+1 uses random number: 243268139
+This is y: 0.113281
+do case 1
+for next quantum, 4 will reference word 9.
+
+1 references word 9.
+1 uses random number: 1012502954
+This is y: 0.471483
+do case 1
+1 references word 0.
+1 uses random number: 1272469786
+This is y: 0.592540
+do case 1
+1 references word 1.
+1 uses random number: 2027907669
+This is y: 0.944318
+do case 2
+for next quantum, 1 will reference word 6.
+
+2 references word 6.
+1 uses random number: 968338082
+This is y: 0.450918
+do case 1
+2 references word 7.
+1 uses random number: 722308542
+This is y: 0.336351
+do case 1
+2 references word 8.
+1 uses random number: 1820388464
+This is y: 0.847684
+do case 3
+for next quantum, 2 will reference word 2.
+
+3 references word 2.
+1 uses random number: 933110197
+This is y: 0.434513
+do case 1
+3 references word 3.
+1 uses random number: 6939507
+This is y: 0.003231
+do case 1
+3 references word 4.
+1 uses random number: 740759355
+This is y: 0.344943
+do case 1
+for next quantum, 3 will reference word 5.
+
+4 references word 5.
+1 uses random number: 1285228804
+This is y: 0.598481
+do case 2
+4 references word 0.
+1 uses random number: 1789376348
+This is y: 0.833243
+do case 4
+4 references word 1.
+1 uses random number: 502278611
+This is y: 0.233892
+do case 1
+for next quantum, 4 will reference word 2.
+
+1 references word 2.
+1 uses random number: 1450573622
+This is y: 0.675476
+do case 1
+1 references word 3.
+1 uses random number: 1037127828
+This is y: 0.482950
+do case 1
+1 references word 4.
+1 uses random number: 1034949299
+This is y: 0.481936
+do case 1
+for next quantum, 1 will reference word 5.
+
+2 references word 5.
+1 uses random number: 654887343
+This is y: 0.304956
+do case 1
+2 references word 6.
+1 uses random number: 1529195746
+This is y: 0.712087
+do case 1
+2 references word 7.
+1 uses random number: 392035568
+This is y: 0.182556
+do case 1
+for next quantum, 2 will reference word 8.
+
+3 references word 8.
+1 uses random number: 1335354340
+This is y: 0.621823
+do case 1
+3 references word 9.
+1 uses random number: 87755422
+This is y: 0.040864
+do case 1
+3 references word 0.
+1 uses random number: 889023311
+This is y: 0.413984
+do case 1
+for next quantum, 3 will reference word 1.
+
+4 references word 1.
+1 uses random number: 1494613810
+This is y: 0.695984
+do case 3
+4 references word 5.
+1 uses random number: 1447267605
+This is y: 0.673936
+do case 3
+4 references word 9.
+1 uses random number: 1369321801
+This is y: 0.637640
+do case 3
+for next quantum, 4 will reference word 3.
+
+1 references word 3.
+1 uses random number: 745425661
+This is y: 0.347116
+do case 1
+1 references word 4.
+1 uses random number: 396473730
+This is y: 0.184622
+do case 1
+1 references word 5.
+1 uses random number: 1308044878
+This is y: 0.609106
+do case 1
+for next quantum, 1 will reference word 6.
+
+2 references word 6.
+1 uses random number: 1346811305
+This is y: 0.627158
+do case 1
+2 references word 7.
+1 uses random number: 1569229320
+This is y: 0.730729
+do case 1
+2 references word 8.
+1 uses random number: 705178736
+This is y: 0.328374
+do case 1
+for next quantum, 2 will reference word 9.
+
+3 references word 9.
+1 uses random number: 1590079444
+This is y: 0.740438
+do case 1
+3 references word 0.
+1 uses random number: 434248626
+This is y: 0.202213
+do case 1
+3 references word 1.
+1 uses random number: 1977648522
+This is y: 0.920914
+do case 3
+for next quantum, 3 will reference word 5.
+
+4 references word 5.
+1 uses random number: 1470503465
+This is y: 0.684757
+do case 3
+4 references word 9.
+1 uses random number: 1402586708
+This is y: 0.653130
+do case 3
+4 references word 3.
+1 uses random number: 552473416
+This is y: 0.257265
+do case 1
+for next quantum, 4 will reference word 4.
+
+1 references word 4.
+1 uses random number: 1143408282
+This is y: 0.532441
+do case 1
+1 references word 5.
+1 uses random number: 188213258
+This is y: 0.087644
+do case 1
+1 references word 6.
+1 uses random number: 559412924
+This is y: 0.260497
+do case 1
+for next quantum, 1 will reference word 7.
+
+2 references word 7.
+1 uses random number: 1884167637
+This is y: 0.877384
+do case 3
+2 references word 1.
+1 uses random number: 1473442062
+This is y: 0.686125
+do case 1
+2 references word 2.
+1 uses random number: 201305624
+This is y: 0.093740
+do case 1
+for next quantum, 2 will reference word 3.
+
+3 references word 3.
+1 uses random number: 238962600
+This is y: 0.111276
+do case 1
+3 references word 4.
+1 uses random number: 776532036
+This is y: 0.361601
+do case 1
+3 references word 5.
+1 uses random number: 1238433452
+This is y: 0.576691
+do case 1
+for next quantum, 3 will reference word 6.
+
+4 references word 6.
+1 uses random number: 1273911899
+This is y: 0.593211
+do case 2
+4 references word 1.
+1 uses random number: 1431419379
+This is y: 0.666557
+do case 3
+4 references word 5.
+1 uses random number: 620145550
+This is y: 0.288778
+do case 1
+for next quantum, 4 will reference word 6.
+
+1 references word 6.
+1 uses random number: 1665947468
+This is y: 0.775767
+do case 2
+1 references word 1.
+1 uses random number: 619290071
+This is y: 0.288379
+do case 1
+1 references word 2.
+1 uses random number: 707900973
+This is y: 0.329642
+do case 1
+for next quantum, 1 will reference word 3.
+
+2 references word 3.
+1 uses random number: 407487131
+This is y: 0.189751
+do case 1
+2 references word 4.
+1 uses random number: 2113903881
+This is y: 0.984363
+do case 3
+2 references word 8.
+1 uses random number: 7684930
+This is y: 0.003579
+do case 1
+for next quantum, 2 will reference word 9.
+
+3 references word 9.
+1 uses random number: 1776808933
+This is y: 0.827391
+do case 2
+3 references word 4.
+1 uses random number: 711845894
+This is y: 0.331479
+do case 1
+3 references word 5.
+1 uses random number: 404158660
+This is y: 0.188201
+do case 1
+for next quantum, 3 will reference word 6.
+
+4 references word 6.
+1 uses random number: 937370163
+This is y: 0.436497
+do case 1
+4 references word 7.
+1 uses random number: 2058657199
+This is y: 0.958637
+do case 4
+4 references word 8.
+1 uses random number: 1973387981
+This is y: 0.918930
+do case 4
+for next quantum, 4 will reference word 9.
+
+1 references word 9.
+1 uses random number: 1642548899
+This is y: 0.764871
+do case 2
+1 references word 4.
+1 uses random number: 1501252996
+This is y: 0.699075
+do case 1
+1 references word 5.
+1 uses random number: 260152959
+This is y: 0.121143
+do case 1
+for next quantum, 1 will reference word 6.
+
+2 references word 6.
+1 uses random number: 1472713773
+This is y: 0.685786
+do case 1
+2 references word 7.
+1 uses random number: 824272813
+This is y: 0.383832
+do case 1
+2 references word 8.
+1 uses random number: 1662739668
+This is y: 0.774273
+do case 3
+for next quantum, 2 will reference word 2.
+
+3 references word 2.
+1 uses random number: 2025187190
+This is y: 0.943051
+do case 3
+3 references word 6.
+1 uses random number: 1967681095
+This is y: 0.916273
+do case 3
+3 references word 0.
+1 uses random number: 1850952926
+This is y: 0.861917
+do case 2
+for next quantum, 3 will reference word 5.
+
+4 references word 5.
+1 uses random number: 437116466
+This is y: 0.203548
+do case 1
+4 references word 6.
+1 uses random number: 1704365084
+This is y: 0.793657
+do case 4
+4 references word 7.
+1 uses random number: 1176911340
+This is y: 0.548042
+do case 2
+for next quantum, 4 will reference word 2.
+
+1 references word 2.
+1 uses random number: 638422090
+This is y: 0.297288
+do case 1
+1 references word 3.
+1 uses random number: 1943327684
+This is y: 0.904932
+do case 2
+1 references word 8.
+1 uses random number: 1953443376
+This is y: 0.909643
+do case 2
+for next quantum, 1 will reference word 3.
+
+2 references word 3.
+1 uses random number: 1876855542
+This is y: 0.873979
+do case 3
+2 references word 7.
+1 uses random number: 1069755936
+This is y: 0.498144
+do case 1
+2 references word 8.
+1 uses random number: 1237379107
+This is y: 0.576200
+do case 1
+for next quantum, 2 will reference word 9.
+
+3 references word 9.
+1 uses random number: 349517445
+This is y: 0.162757
+do case 1
+3 references word 0.
+1 uses random number: 588219756
+This is y: 0.273911
+do case 1
+3 references word 1.
+1 uses random number: 1856669179
+This is y: 0.864579
+do case 2
+for next quantum, 3 will reference word 6.
+
+4 references word 6.
+1 uses random number: 1057418418
+This is y: 0.492399
+do case 1
+4 references word 7.
+1 uses random number: 995706887
+This is y: 0.463662
+do case 1
+4 references word 8.
+1 uses random number: 1823089412
+This is y: 0.848942
+do case 4
+for next quantum, 4 will reference word 9.
+
+1 references word 9.
+1 uses random number: 1065103348
+This is y: 0.495977
+do case 1
+1 references word 0.
+1 uses random number: 625032172
+This is y: 0.291053
+do case 1
+1 references word 1.
+1 uses random number: 387451659
+This is y: 0.180421
+do case 1
+for next quantum, 1 will reference word 2.
+
+2 references word 2.
+1 uses random number: 1469262009
+This is y: 0.684178
+do case 1
+2 references word 3.
+1 uses random number: 1562402336
+This is y: 0.727550
+do case 1
+2 references word 4.
+1 uses random number: 298625210
+This is y: 0.139058
+do case 1
+for next quantum, 2 will reference word 5.
+
+3 references word 5.
+1 uses random number: 1295166342
+This is y: 0.603109
+do case 1
+3 references word 6.
+1 uses random number: 1057467587
+This is y: 0.492422
+do case 1
+3 references word 7.
+1 uses random number: 1799878206
+This is y: 0.838134
+do case 2
+for next quantum, 3 will reference word 2.
+
+4 references word 2.
+1 uses random number: 1555319301
+This is y: 0.724252
+do case 3
+4 references word 6.
+1 uses random number: 382697713
+This is y: 0.178208
+do case 1
+4 references word 7.
+1 uses random number: 476667372
+This is y: 0.221966
+do case 1
+for next quantum, 4 will reference word 8.
+
+1 references word 8.
+1 uses random number: 1070575321
+This is y: 0.498525
+do case 1
+1 references word 9.
+1 uses random number: 260401255
+This is y: 0.121259
+do case 1
+1 references word 0.
+1 uses random number: 296864819
+This is y: 0.138238
+do case 1
+for next quantum, 1 will reference word 1.
+
+2 references word 1.
+1 uses random number: 774044599
+This is y: 0.360443
+do case 1
+2 references word 2.
+1 uses random number: 697517721
+This is y: 0.324807
+do case 1
+2 references word 3.
+1 uses random number: 2001229904
+This is y: 0.931895
+do case 3
+for next quantum, 2 will reference word 7.
+
+3 references word 7.
+1 uses random number: 1950955939
+This is y: 0.908485
+do case 3
+3 references word 1.
+1 uses random number: 1335939811
+This is y: 0.622095
+do case 1
+3 references word 2.
+1 uses random number: 1797073940
+This is y: 0.836828
+do case 2
+for next quantum, 3 will reference word 7.
+
+4 references word 7.
+1 uses random number: 1756915667
+This is y: 0.818128
+do case 4
+4 references word 8.
+1 uses random number: 1065311705
+This is y: 0.496074
+do case 1
+4 references word 9.
+1 uses random number: 719346228
+This is y: 0.334972
+do case 1
+for next quantum, 4 will reference word 0.
+
+1 references word 0.
+1 uses random number: 846811127
+This is y: 0.394327
+do case 1
+1 references word 1.
+1 uses random number: 1414829150
+This is y: 0.658831
+do case 1
+1 references word 2.
+1 uses random number: 1307565984
+This is y: 0.608883
+do case 1
+for next quantum, 1 will reference word 3.
+
+2 references word 3.
+1 uses random number: 555996658
+This is y: 0.258906
+do case 1
+2 references word 4.
+1 uses random number: 324763920
+This is y: 0.151230
+do case 1
+2 references word 5.
+1 uses random number: 155789224
+This is y: 0.072545
+do case 1
+for next quantum, 2 will reference word 6.
+
+3 references word 6.
+1 uses random number: 231602422
+This is y: 0.107848
+do case 1
+3 references word 7.
+1 uses random number: 1389867269
+This is y: 0.647207
+do case 1
+3 references word 8.
+1 uses random number: 780821396
+This is y: 0.363598
+do case 1
+for next quantum, 3 will reference word 9.
+
+4 references word 9.
+1 uses random number: 619054081
+This is y: 0.288270
+do case 1
+4 references word 0.
+1 uses random number: 711645630
+This is y: 0.331386
+do case 1
+4 references word 1.
+1 uses random number: 195740084
+This is y: 0.091149
+do case 1
+for next quantum, 4 will reference word 2.
+
+1 references word 2.
+1 uses random number: 917679292
+This is y: 0.427328
+do case 1
+1 references word 3.
+1 uses random number: 2006811972
+This is y: 0.934495
+do case 2
+1 references word 8.
+1 uses random number: 1253207672
+This is y: 0.583570
+do case 1
+for next quantum, 1 will reference word 9.
+
+2 references word 9.
+1 uses random number: 570073850
+This is y: 0.265461
+do case 1
+2 references word 0.
+1 uses random number: 1414647625
+This is y: 0.658747
+do case 1
+2 references word 1.
+1 uses random number: 1635905385
+This is y: 0.761778
+do case 3
+for next quantum, 2 will reference word 5.
+
+3 references word 5.
+1 uses random number: 1046741222
+This is y: 0.487427
+do case 1
+3 references word 6.
+1 uses random number: 337739299
+This is y: 0.157272
+do case 1
+3 references word 7.
+1 uses random number: 1896306640
+This is y: 0.883037
+do case 3
+for next quantum, 3 will reference word 1.
+
+4 references word 1.
+1 uses random number: 1343606042
+This is y: 0.625665
+do case 3
+4 references word 5.
+1 uses random number: 1111783898
+This is y: 0.517715
+do case 2
+4 references word 0.
+1 uses random number: 446340713
+This is y: 0.207844
+do case 1
+for next quantum, 4 will reference word 1.
+
+1 references word 1.
+1 uses random number: 1197352298
+This is y: 0.557561
+do case 1
+1 references word 2.
+1 uses random number: 915256190
+This is y: 0.426199
+do case 1
+1 references word 3.
+1 uses random number: 1782280524
+This is y: 0.829939
+do case 2
+for next quantum, 1 will reference word 8.
+
+2 references word 8.
+1 uses random number: 846942590
+This is y: 0.394388
+do case 1
+2 references word 9.
+1 uses random number: 524688209
+This is y: 0.244327
+do case 1
+2 references word 0.
+1 uses random number: 700108581
+This is y: 0.326013
+do case 1
+for next quantum, 2 will reference word 1.
+
+3 references word 1.
+1 uses random number: 1566288819
+This is y: 0.729360
+do case 1
+3 references word 2.
+1 uses random number: 1371499336
+This is y: 0.638654
+do case 1
+3 references word 3.
+1 uses random number: 2114937732
+This is y: 0.984845
+do case 3
+for next quantum, 3 will reference word 7.
+
+4 references word 7.
+1 uses random number: 726371155
+This is y: 0.338243
+do case 1
+4 references word 8.
+1 uses random number: 1927495994
+This is y: 0.897560
+do case 4
+4 references word 9.
+1 uses random number: 292218004
+This is y: 0.136075
+do case 1
+for next quantum, 4 will reference word 0.
+
+1 references word 0.
+1 uses random number: 882160379
+This is y: 0.410788
+do case 1
+1 references word 1.
+1 uses random number: 11614769
+This is y: 0.005409
+do case 1
+1 references word 2.
+1 uses random number: 1682085273
+This is y: 0.783282
+do case 2
+for next quantum, 1 will reference word 7.
+
+2 references word 7.
+1 uses random number: 1662981776
+This is y: 0.774386
+do case 3
+2 references word 1.
+1 uses random number: 630668850
+This is y: 0.293678
+do case 1
+2 references word 2.
+1 uses random number: 246247255
+This is y: 0.114668
+do case 1
+for next quantum, 2 will reference word 3.
+
+3 references word 3.
+1 uses random number: 1858721860
+This is y: 0.865535
+do case 2
+3 references word 8.
+1 uses random number: 1548348142
+This is y: 0.721006
+do case 1
+3 references word 9.
+1 uses random number: 105575579
+This is y: 0.049162
+do case 1
+for next quantum, 3 will reference word 0.
+
+4 references word 0.
+1 uses random number: 964445884
+This is y: 0.449105
+do case 1
+4 references word 1.
+1 uses random number: 2118421993
+This is y: 0.986467
+do case 4
+4 references word 2.
+1 uses random number: 1520223205
+This is y: 0.707909
+do case 3
+for next quantum, 4 will reference word 6.
+
+1 references word 6.
+1 uses random number: 452867621
+This is y: 0.210883
+do case 1
+1 references word 7.
+1 uses random number: 1017679567
+This is y: 0.473894
+do case 1
+1 references word 8.
+1 uses random number: 1857962504
+This is y: 0.865181
+do case 2
+for next quantum, 1 will reference word 3.
+
+2 references word 3.
+1 uses random number: 201690613
+This is y: 0.093920
+do case 1
+2 references word 4.
+1 uses random number: 213801961
+This is y: 0.099559
+do case 1
+2 references word 5.
+1 uses random number: 822262754
+This is y: 0.382896
+do case 1
+for next quantum, 2 will reference word 6.
+
+3 references word 6.
+1 uses random number: 648031326
+This is y: 0.301763
+do case 1
+3 references word 7.
+1 uses random number: 1411154259
+This is y: 0.657120
+do case 1
+3 references word 8.
+1 uses random number: 1737518944
+This is y: 0.809095
+do case 2
+for next quantum, 3 will reference word 3.
+
+4 references word 3.
+1 uses random number: 282828202
+This is y: 0.131702
+do case 1
+4 references word 4.
+1 uses random number: 110613202
+This is y: 0.051508
+do case 1
+4 references word 5.
+1 uses random number: 114723506
+This is y: 0.053422
+do case 1
+for next quantum, 4 will reference word 6.
+
+1 references word 6.
+1 uses random number: 982936784
+This is y: 0.457716
+do case 1
+1 references word 7.
+1 uses random number: 1676902021
+This is y: 0.780868
+do case 2
+1 references word 2.
+1 uses random number: 1486222842
+This is y: 0.692076
+do case 1
+for next quantum, 1 will reference word 3.
+
+2 references word 3.
+1 uses random number: 950390868
+This is y: 0.442560
+do case 1
+2 references word 4.
+1 uses random number: 255789528
+This is y: 0.119111
+do case 1
+2 references word 5.
+1 uses random number: 1266235189
+This is y: 0.589637
+do case 1
+for next quantum, 2 will reference word 6.
+
+3 references word 6.
+1 uses random number: 1242608872
+This is y: 0.578635
+do case 1
+3 references word 7.
+1 uses random number: 1137949908
+This is y: 0.529899
+do case 1
+3 references word 8.
+1 uses random number: 1277849958
+This is y: 0.595045
+do case 1
+for next quantum, 3 will reference word 9.
+
+4 references word 9.
+1 uses random number: 777210498
+This is y: 0.361917
+do case 1
+4 references word 0.
+1 uses random number: 653448036
+This is y: 0.304285
+do case 1
+4 references word 1.
+1 uses random number: 1908518808
+This is y: 0.888723
+do case 4
+for next quantum, 4 will reference word 2.
+
+1 references word 2.
+1 uses random number: 1023457753
+This is y: 0.476585
+do case 1
+1 references word 3.
+1 uses random number: 364686248
+This is y: 0.169820
+do case 1
+1 references word 4.
+1 uses random number: 1309383303
+This is y: 0.609729
+do case 1
+for next quantum, 1 will reference word 5.
+
+2 references word 5.
+1 uses random number: 1129033333
+This is y: 0.525747
+do case 1
+2 references word 6.
+1 uses random number: 1329132133
+This is y: 0.618925
+do case 1
+2 references word 7.
+1 uses random number: 1280321648
+This is y: 0.596196
+do case 1
+for next quantum, 2 will reference word 8.
+
+3 references word 8.
+1 uses random number: 501772890
+This is y: 0.233656
+do case 1
+3 references word 9.
+1 uses random number: 1781999754
+This is y: 0.829808
+do case 2
+3 references word 4.
+1 uses random number: 150517567
+This is y: 0.070090
+do case 1
+for next quantum, 3 will reference word 5.
+
+4 references word 5.
+1 uses random number: 212251746
+This is y: 0.098837
+do case 1
+4 references word 6.
+1 uses random number: 1983690368
+This is y: 0.923728
+do case 4
+4 references word 7.
+1 uses random number: 364319529
+This is y: 0.169650
+do case 1
+for next quantum, 4 will reference word 8.
+
+1 references word 8.
+1 uses random number: 1034514500
+This is y: 0.481733
+do case 1
+1 references word 9.
+1 uses random number: 484238046
+This is y: 0.225491
+do case 1
+1 references word 0.
+1 uses random number: 1775473788
+This is y: 0.826769
+do case 2
+for next quantum, 1 will reference word 5.
+
+2 references word 5.
+1 uses random number: 624549797
+This is y: 0.290829
+do case 1
+2 references word 6.
+1 uses random number: 767066249
+This is y: 0.357193
+do case 1
+2 references word 7.
+1 uses random number: 1886086990
+This is y: 0.878278
+do case 3
+for next quantum, 2 will reference word 1.
+
+3 references word 1.
+1 uses random number: 739273303
+This is y: 0.344251
+do case 1
+3 references word 2.
+1 uses random number: 1750003033
+This is y: 0.814909
+do case 2
+3 references word 7.
+1 uses random number: 1415505363
+This is y: 0.659146
+do case 1
+for next quantum, 3 will reference word 8.
+
+4 references word 8.
+1 uses random number: 78012497
+This is y: 0.036327
+do case 1
+4 references word 9.
+1 uses random number: 552910253
+This is y: 0.257469
+do case 1
+4 references word 0.
+1 uses random number: 1671294892
+This is y: 0.778257
+do case 4
+for next quantum, 4 will reference word 1.
+
+1 references word 1.
+1 uses random number: 1344247686
+This is y: 0.625964
+do case 1
+1 references word 2.
+1 uses random number: 1795519125
+This is y: 0.836104
+do case 2
+1 references word 7.
+1 uses random number: 661761152
+This is y: 0.308157
+do case 1
+for next quantum, 1 will reference word 8.
+
+2 references word 8.
+1 uses random number: 474613996
+This is y: 0.221009
+do case 1
+2 references word 9.
+1 uses random number: 425245975
+This is y: 0.198021
+do case 1
+2 references word 0.
+1 uses random number: 1315209188
+This is y: 0.612442
+do case 1
+for next quantum, 2 will reference word 1.
+
+3 references word 1.
+1 uses random number: 235649157
+This is y: 0.109733
+do case 1
+3 references word 2.
+1 uses random number: 1448703729
+This is y: 0.674605
+do case 1
+3 references word 3.
+1 uses random number: 1679895436
+This is y: 0.782262
+do case 2
+for next quantum, 3 will reference word 8.
+
+4 references word 8.
+1 uses random number: 1545032460
+This is y: 0.719462
+do case 3
+4 references word 2.
+1 uses random number: 430253414
+This is y: 0.200352
+do case 1
+4 references word 3.
+1 uses random number: 861543921
+This is y: 0.401188
+do case 1
+for next quantum, 4 will reference word 4.
+
+1 references word 4.
+1 uses random number: 677870460
+This is y: 0.315658
+do case 1
+1 references word 5.
+1 uses random number: 932026304
+This is y: 0.434009
+do case 1
+1 references word 6.
+1 uses random number: 496060028
+This is y: 0.230996
+do case 1
+for next quantum, 1 will reference word 7.
+
+2 references word 7.
+1 uses random number: 828388027
+This is y: 0.385748
+do case 1
+2 references word 8.
+1 uses random number: 1144278050
+This is y: 0.532846
+do case 1
+2 references word 9.
+1 uses random number: 332266748
+This is y: 0.154724
+do case 1
+for next quantum, 2 will reference word 0.
+
+3 references word 0.
+1 uses random number: 1192707556
+This is y: 0.555398
+do case 1
+3 references word 1.
+1 uses random number: 31308902
+This is y: 0.014579
+do case 1
+3 references word 2.
+1 uses random number: 816504794
+This is y: 0.380215
+do case 1
+for next quantum, 3 will reference word 3.
+
+4 references word 3.
+1 uses random number: 820697697
+This is y: 0.382167
+do case 1
+4 references word 4.
+1 uses random number: 655858699
+This is y: 0.305408
+do case 1
+4 references word 5.
+1 uses random number: 1583571043
+This is y: 0.737408
+do case 3
+for next quantum, 4 will reference word 9.
+
+1 references word 9.
+1 uses random number: 559301039
+This is y: 0.260445
+do case 1
+1 references word 0.
+1 uses random number: 1395132002
+This is y: 0.649659
+do case 1
+1 references word 1.
+1 uses random number: 1186090428
+This is y: 0.552316
+do case 1
+for next quantum, 1 will reference word 2.
+
+2 references word 2.
+1 uses random number: 1974806403
+This is y: 0.919591
+do case 3
+2 references word 6.
+1 uses random number: 1473144500
+This is y: 0.685986
+do case 1
+2 references word 7.
+1 uses random number: 1739000681
+This is y: 0.809785
+do case 3
+for next quantum, 2 will reference word 1.
+
+3 references word 1.
+1 uses random number: 1498617647
+This is y: 0.697848
+do case 1
+3 references word 2.
+1 uses random number: 669908538
+This is y: 0.311950
+do case 1
+3 references word 3.
+1 uses random number: 1387036159
+This is y: 0.645889
+do case 1
+for next quantum, 3 will reference word 4.
+
+4 references word 4.
+1 uses random number: 12895151
+This is y: 0.006005
+do case 1
+4 references word 5.
+1 uses random number: 1144522535
+This is y: 0.532960
+do case 2
+4 references word 0.
+1 uses random number: 1812282134
+This is y: 0.843910
+do case 4
+for next quantum, 4 will reference word 1.
+
+1 references word 1.
+1 uses random number: 1328104339
+This is y: 0.618447
+do case 1
+1 references word 2.
+1 uses random number: 1380171692
+This is y: 0.642693
+do case 1
+1 references word 3.
+1 uses random number: 1113502215
+This is y: 0.518515
+do case 1
+for next quantum, 1 will reference word 4.
+
+2 references word 4.
+1 uses random number: 860516127
+This is y: 0.400709
+do case 1
+2 references word 5.
+1 uses random number: 777720504
+This is y: 0.362154
+do case 1
+2 references word 6.
+1 uses random number: 1543755629
+This is y: 0.718867
+do case 1
+for next quantum, 2 will reference word 7.
+
+3 references word 7.
+1 uses random number: 1722060049
+This is y: 0.801897
+do case 2
+3 references word 2.
+1 uses random number: 1455590964
+This is y: 0.677812
+do case 1
+3 references word 3.
+1 uses random number: 328298285
+This is y: 0.152876
+do case 1
+for next quantum, 3 will reference word 4.
+
+4 references word 4.
+1 uses random number: 70636429
+This is y: 0.032893
+do case 1
+4 references word 5.
+1 uses random number: 136495343
+This is y: 0.063561
+do case 1
+4 references word 6.
+1 uses random number: 1472576335
+This is y: 0.685722
+do case 3
+for next quantum, 4 will reference word 0.
+
+gayeonpark@Gayeons-MacBook-Pro ~/Documents/OS/Lab4/src
+$ javac Paging.java
+gayeonpark@Gayeons-MacBook-Pro ~/Documents/OS/Lab4/src
+$ java Paging 20 10 10 4 10 lru 11
+
+The machine size is 20.
+The page size is 10.
+The process size is 10.
+The job mix number is 4.
+The number of references per process is 10.
+The replacement algorithm is lru.
+The level of debugging output is 11.
+
+1 references word 1.
+1 uses random number: 1804289383
+This is y: 0.840188
+do case 2
+1 references word 6.
+1 uses random number: 846930886
+This is y: 0.394383
+do case 1
+1 references word 7.
+1 uses random number: 1681692777
+This is y: 0.783099
+do case 2
+for next quantum, 1 will reference word 2.
+
+2 references word 2.
+1 uses random number: 1714636915
+This is y: 0.798440
+do case 3
+2 references word 6.
+1 uses random number: 1957747793
+This is y: 0.911647
+do case 3
+2 references word 0.
+1 uses random number: 424238335
+This is y: 0.197551
+do case 1
+for next quantum, 2 will reference word 1.
+
+3 references word 3.
+1 uses random number: 719885386
+This is y: 0.335223
+do case 1
+3 references word 4.
+1 uses random number: 1649760492
+This is y: 0.768230
+do case 2
+3 references word 9.
+1 uses random number: 596516649
+This is y: 0.277775
+do case 1
+for next quantum, 3 will reference word 0.
+
+4 references word 4.
+1 uses random number: 1189641421
+This is y: 0.553970
+do case 2
+4 references word 9.
+1 uses random number: 1025202362
+This is y: 0.477397
+do case 1
+4 references word 0.
+1 uses random number: 1350490027
+This is y: 0.628871
+do case 3
+for next quantum, 4 will reference word 4.
+
+1 references word 2.
+1 uses random number: 783368690
+This is y: 0.364784
+do case 1
+1 references word 3.
+1 uses random number: 1102520059
+This is y: 0.513401
+do case 1
+1 references word 4.
+1 uses random number: 2044897763
+This is y: 0.952230
+do case 2
+for next quantum, 1 will reference word 9.
+
+2 references word 1.
+1 uses random number: 1967513926
+This is y: 0.916195
+do case 3
+2 references word 5.
+1 uses random number: 1365180540
+This is y: 0.635712
+do case 1
+2 references word 6.
+1 uses random number: 1540383426
+This is y: 0.717297
+do case 1
+for next quantum, 2 will reference word 7.
+
+3 references word 0.
+1 uses random number: 304089172
+This is y: 0.141603
+do case 1
+3 references word 1.
+1 uses random number: 1303455736
+This is y: 0.606969
+do case 1
+3 references word 2.
+1 uses random number: 35005211
+This is y: 0.016301
+do case 1
+for next quantum, 3 will reference word 3.
+
+4 references word 4.
+1 uses random number: 521595368
+This is y: 0.242887
+do case 1
+4 references word 5.
+1 uses random number: 294702567
+This is y: 0.137232
+do case 1
+4 references word 6.
+1 uses random number: 1726956429
+This is y: 0.804177
+do case 4
+for next quantum, 4 will reference word 7.
+
+1 references word 9.
+1 uses random number: 336465782
+This is y: 0.156679
+do case 1
+1 references word 0.
+1 uses random number: 861021530
+This is y: 0.400944
+do case 1
+1 references word 1.
+1 uses random number: 278722862
+This is y: 0.129790
+do case 1
+for next quantum, 1 will reference word 2.
+
+2 references word 7.
+1 uses random number: 233665123
+This is y: 0.108809
+do case 1
+2 references word 8.
+1 uses random number: 2145174067
+This is y: 0.998925
+do case 3
+2 references word 2.
+1 uses random number: 468703135
+This is y: 0.218257
+do case 1
+for next quantum, 2 will reference word 3.
+
+3 references word 3.
+1 uses random number: 1101513929
+This is y: 0.512932
+do case 1
+3 references word 4.
+1 uses random number: 1801979802
+This is y: 0.839112
+do case 2
+3 references word 9.
+1 uses random number: 1315634022
+This is y: 0.612640
+do case 1
+for next quantum, 3 will reference word 0.
+
+4 references word 7.
+1 uses random number: 635723058
+This is y: 0.296032
+do case 1
+4 references word 8.
+1 uses random number: 1369133069
+This is y: 0.637552
+do case 3
+4 references word 2.
+1 uses random number: 1125898167
+This is y: 0.524287
+do case 2
+for next quantum, 4 will reference word 7.
+
+1 references word 2.
+1 uses random number: 1059961393
+This is y: 0.493583
+do case 1
+1 references word 3.
+1 uses random number: 2089018456
+This is y: 0.972775
+do case 2
+1 references word 8.
+1 uses random number: 628175011
+This is y: 0.292517
+do case 1
+for next quantum, 1 will reference word 9.
+
+2 references word 3.
+1 uses random number: 1656478042
+This is y: 0.771358
+do case 3
+2 references word 7.
+1 uses random number: 1131176229
+This is y: 0.526745
+do case 1
+2 references word 8.
+1 uses random number: 1653377373
+This is y: 0.769914
+do case 3
+for next quantum, 2 will reference word 2.
+
+3 references word 0.
+1 uses random number: 859484421
+This is y: 0.400229
+do case 1
+3 references word 1.
+1 uses random number: 1914544919
+This is y: 0.891529
+do case 3
+3 references word 5.
+1 uses random number: 608413784
+This is y: 0.283315
+do case 1
+for next quantum, 3 will reference word 6.
+
+4 references word 7.
+1 uses random number: 756898537
+This is y: 0.352458
+do case 1
+4 references word 8.
+1 uses random number: 1734575198
+This is y: 0.807725
+do case 4
+4 references word 9.
+1 uses random number: 1973594324
+This is y: 0.919026
+do case 4
+for next quantum, 4 will reference word 0.
+
+1 references word 9.
+1 uses random number: 149798315
+This is y: 0.069755
+do case 1
+1 references word 0.
+1 uses random number: 2038664370
+This is y: 0.949327
+do case 2
+1 references word 5.
+1 uses random number: 1129566413
+This is y: 0.525995
+do case 1
+for next quantum, 1 will reference word 6.
+
+2 references word 2.
+1 uses random number: 184803526
+This is y: 0.086056
+do case 1
+2 references word 3.
+1 uses random number: 412776091
+This is y: 0.192214
+do case 1
+2 references word 4.
+1 uses random number: 1424268980
+This is y: 0.663227
+do case 1
+for next quantum, 2 will reference word 5.
+
+3 references word 6.
+1 uses random number: 1911759956
+This is y: 0.890233
+do case 3
+3 references word 0.
+1 uses random number: 749241873
+This is y: 0.348893
+do case 1
+3 references word 1.
+1 uses random number: 137806862
+This is y: 0.064171
+do case 1
+for next quantum, 3 will reference word 2.
+
+4 references word 0.
+1 uses random number: 42999170
+This is y: 0.020023
+do case 1
+4 references word 1.
+1 uses random number: 982906996
+This is y: 0.457702
+do case 1
+4 references word 2.
+1 uses random number: 135497281
+This is y: 0.063096
+do case 1
+for next quantum, 4 will reference word 3.
+
+1 references word 6.
+1 uses random number: 511702305
+This is y: 0.238280
+do case 1
+1 references word 7.
+1 uses random number: 2084420925
+This is y: 0.970634
+do case 2
+1 references word 2.
+1 uses random number: 1937477084
+This is y: 0.902208
+do case 2
+for next quantum, 1 will reference word 7.
+
+2 references word 5.
+1 uses random number: 1827336327
+This is y: 0.850920
+do case 3
+2 references word 9.
+1 uses random number: 572660336
+This is y: 0.266666
+do case 1
+2 references word 0.
+1 uses random number: 1159126505
+This is y: 0.539760
+do case 1
+for next quantum, 2 will reference word 1.
+
+3 references word 2.
+1 uses random number: 805750846
+This is y: 0.375207
+do case 1
+3 references word 3.
+1 uses random number: 1632621729
+This is y: 0.760249
+do case 2
+3 references word 8.
+1 uses random number: 1100661313
+This is y: 0.512535
+do case 1
+for next quantum, 3 will reference word 9.
+
+4 references word 3.
+1 uses random number: 1433925857
+This is y: 0.667724
+do case 3
+4 references word 7.
+1 uses random number: 1141616124
+This is y: 0.531606
+do case 2
+4 references word 2.
+1 uses random number: 84353895
+This is y: 0.039280
+do case 1
+for next quantum, 4 will reference word 3.
+
+1 references word 7.
+1 uses random number: 939819582
+This is y: 0.437638
+do case 1
+1 references word 8.
+1 uses random number: 2001100545
+This is y: 0.931835
+do case 2
+1 references word 3.
+1 uses random number: 1998898814
+This is y: 0.930810
+do case 2
+for next quantum, 1 will reference word 8.
+
+2 references word 1.
+1 uses random number: 1548233367
+This is y: 0.720952
+do case 1
+2 references word 2.
+1 uses random number: 610515434
+This is y: 0.284293
+do case 1
+2 references word 3.
+1 uses random number: 1585990364
+This is y: 0.738534
+do case 1
+for next quantum, 2 will reference word 4.
+
+3 references word 9.
+1 uses random number: 1374344043
+This is y: 0.639979
+do case 1
+3 references word 0.
+1 uses random number: 760313750
+This is y: 0.354049
+do case 1
+3 references word 1.
+1 uses random number: 1477171087
+This is y: 0.687861
+do case 1
+for next quantum, 3 will reference word 2.
+
+4 references word 3.
+1 uses random number: 356426808
+This is y: 0.165974
+do case 1
+4 references word 4.
+1 uses random number: 945117276
+This is y: 0.440105
+do case 1
+4 references word 5.
+1 uses random number: 1889947178
+This is y: 0.880075
+do case 4
+for next quantum, 4 will reference word 6.
+
+1 references word 8.
+1 uses random number: 1780695788
+This is y: 0.829201
+do case 2
+1 references word 3.
+1 uses random number: 709393584
+This is y: 0.330337
+do case 1
+1 references word 4.
+1 uses random number: 491705403
+This is y: 0.228968
+do case 1
+for next quantum, 1 will reference word 5.
+
+2 references word 4.
+1 uses random number: 1918502651
+This is y: 0.893372
+do case 3
+2 references word 8.
+1 uses random number: 752392754
+This is y: 0.350360
+do case 1
+2 references word 9.
+1 uses random number: 1474612399
+This is y: 0.686670
+do case 1
+for next quantum, 2 will reference word 0.
+
+3 references word 2.
+1 uses random number: 2053999932
+This is y: 0.956468
+do case 3
+3 references word 6.
+1 uses random number: 1264095060
+This is y: 0.588640
+do case 1
+3 references word 7.
+1 uses random number: 1411549676
+This is y: 0.657304
+do case 1
+for next quantum, 3 will reference word 8.
+
+4 references word 6.
+1 uses random number: 1843993368
+This is y: 0.858676
+do case 4
+4 references word 7.
+1 uses random number: 943947739
+This is y: 0.439560
+do case 1
+4 references word 8.
+1 uses random number: 1984210012
+This is y: 0.923970
+do case 4
+for next quantum, 4 will reference word 9.
+
+1 references word 5.
+1 uses random number: 855636226
+This is y: 0.398437
+do case 1
+1 references word 6.
+1 uses random number: 1749698586
+This is y: 0.814767
+do case 2
+1 references word 1.
+1 uses random number: 1469348094
+This is y: 0.684219
+do case 1
+for next quantum, 1 will reference word 2.
+
+2 references word 0.
+1 uses random number: 1956297539
+This is y: 0.910972
+do case 3
+2 references word 4.
+1 uses random number: 1036140795
+This is y: 0.482491
+do case 1
+2 references word 5.
+1 uses random number: 463480570
+This is y: 0.215825
+do case 1
+for next quantum, 2 will reference word 6.
+
+3 references word 8.
+1 uses random number: 2040651434
+This is y: 0.950252
+do case 3
+3 references word 2.
+1 uses random number: 1975960378
+This is y: 0.920128
+do case 3
+3 references word 6.
+1 uses random number: 317097467
+This is y: 0.147660
+do case 1
+for next quantum, 3 will reference word 7.
+
+4 references word 9.
+1 uses random number: 1892066601
+This is y: 0.881062
+do case 4
+4 references word 0.
+1 uses random number: 1376710097
+This is y: 0.641081
+do case 3
+4 references word 4.
+1 uses random number: 927612902
+This is y: 0.431953
+do case 1
+for next quantum, 4 will reference word 5.
+
+1 references word 2.
+1 uses random number: 1330573317
+This is y: 0.619596
+do case 1
+1 references word 3.
+1 uses random number: 603570492
+This is y: 0.281059
+do case 1
+1 references word 4.
+1 uses random number: 1687926652
+This is y: 0.786002
+do case 2
+for next quantum, 1 will reference word 9.
+
+2 references word 6.
+1 uses random number: 660260756
+This is y: 0.307458
+do case 1
+2 references word 7.
+1 uses random number: 959997301
+This is y: 0.447034
+do case 1
+2 references word 8.
+1 uses random number: 485560280
+This is y: 0.226107
+do case 1
+for next quantum, 2 will reference word 9.
+
+3 references word 7.
+1 uses random number: 402724286
+This is y: 0.187533
+do case 1
+3 references word 8.
+1 uses random number: 593209441
+This is y: 0.276235
+do case 1
+3 references word 9.
+1 uses random number: 1194953865
+This is y: 0.556444
+do case 1
+for next quantum, 3 will reference word 0.
+
+4 references word 5.
+1 uses random number: 894429689
+This is y: 0.416501
+do case 1
+4 references word 6.
+1 uses random number: 364228444
+This is y: 0.169607
+do case 1
+4 references word 7.
+1 uses random number: 1947346619
+This is y: 0.906804
+do case 4
+for next quantum, 4 will reference word 8.
+
+1 references word 9.
+1 uses random number: 221558440
+This is y: 0.103171
+do case 1
+1 references word 0.
+1 uses random number: 270744729
+This is y: 0.126075
+do case 1
+1 references word 1.
+1 uses random number: 1063958031
+This is y: 0.495444
+do case 1
+for next quantum, 1 will reference word 2.
+
+2 references word 9.
+1 uses random number: 1633108117
+This is y: 0.760475
+do case 3
+2 references word 3.
+1 uses random number: 2114738097
+This is y: 0.984752
+do case 3
+2 references word 7.
+1 uses random number: 2007905771
+This is y: 0.935004
+do case 3
+for next quantum, 2 will reference word 1.
+
+3 references word 0.
+1 uses random number: 1469834481
+This is y: 0.684445
+do case 1
+3 references word 1.
+1 uses random number: 822890675
+This is y: 0.383188
+do case 1
+3 references word 2.
+1 uses random number: 1610120709
+This is y: 0.749771
+do case 1
+for next quantum, 3 will reference word 3.
+
+4 references word 8.
+1 uses random number: 791698927
+This is y: 0.368664
+do case 1
+4 references word 9.
+1 uses random number: 631704567
+This is y: 0.294160
+do case 1
+4 references word 0.
+1 uses random number: 498777856
+This is y: 0.232262
+do case 1
+for next quantum, 4 will reference word 1.
+
+1 references word 2.
+1 uses random number: 1255179497
+This is y: 0.584489
+do case 1
+1 references word 3.
+1 uses random number: 524872353
+This is y: 0.244413
+do case 1
+1 references word 4.
+1 uses random number: 327254586
+This is y: 0.152390
+do case 1
+for next quantum, 1 will reference word 5.
+
+2 references word 1.
+1 uses random number: 1572276965
+This is y: 0.732149
+do case 1
+2 references word 2.
+1 uses random number: 269455306
+This is y: 0.125475
+do case 1
+2 references word 3.
+1 uses random number: 1703964683
+This is y: 0.793470
+do case 3
+for next quantum, 2 will reference word 7.
+
+3 references word 3.
+1 uses random number: 352406219
+This is y: 0.164102
+do case 1
+3 references word 4.
+1 uses random number: 1600028624
+This is y: 0.745071
+do case 1
+3 references word 5.
+1 uses random number: 160051528
+This is y: 0.074530
+do case 1
+for next quantum, 3 will reference word 6.
+
+4 references word 1.
+1 uses random number: 2040332871
+This is y: 0.950104
+do case 4
+4 references word 2.
+1 uses random number: 112805732
+This is y: 0.052529
+do case 1
+4 references word 3.
+1 uses random number: 1120048829
+This is y: 0.521563
+do case 2
+for next quantum, 4 will reference word 8.
+
+1 references word 5.
+1 uses random number: 378409503
+This is y: 0.176211
+do case 1
+1 references word 6.
+1 uses random number: 515530019
+This is y: 0.240062
+do case 1
+1 references word 7.
+1 uses random number: 1713258270
+This is y: 0.797798
+do case 2
+for next quantum, 1 will reference word 2.
+
+2 references word 7.
+1 uses random number: 1573363368
+This is y: 0.732654
+do case 1
+2 references word 8.
+1 uses random number: 1409959708
+This is y: 0.656564
+do case 1
+2 references word 9.
+1 uses random number: 2077486715
+This is y: 0.967405
+do case 3
+for next quantum, 2 will reference word 3.
+
+3 references word 6.
+1 uses random number: 1373226340
+This is y: 0.639458
+do case 1
+3 references word 7.
+1 uses random number: 1631518149
+This is y: 0.759735
+do case 2
+3 references word 2.
+1 uses random number: 200747796
+This is y: 0.093480
+do case 1
+for next quantum, 3 will reference word 3.
+
+4 references word 8.
+1 uses random number: 289700723
+This is y: 0.134902
+do case 1
+4 references word 9.
+1 uses random number: 1117142618
+This is y: 0.520210
+do case 2
+4 references word 4.
+1 uses random number: 168002245
+This is y: 0.078232
+do case 1
+for next quantum, 4 will reference word 5.
+
+1 references word 2.
+1 uses random number: 150122846
+This is y: 0.069906
+do case 1
+1 references word 3.
+1 uses random number: 439493451
+This is y: 0.204655
+do case 1
+1 references word 4.
+1 uses random number: 990892921
+This is y: 0.461420
+do case 1
+for next quantum, 1 will reference word 5.
+
+2 references word 3.
+1 uses random number: 1760243555
+This is y: 0.819677
+do case 3
+2 references word 7.
+1 uses random number: 1231192379
+This is y: 0.573319
+do case 1
+2 references word 8.
+1 uses random number: 1622597488
+This is y: 0.755581
+do case 3
+for next quantum, 2 will reference word 2.
+
+3 references word 3.
+1 uses random number: 111537764
+This is y: 0.051939
+do case 1
+3 references word 4.
+1 uses random number: 338888228
+This is y: 0.157807
+do case 1
+3 references word 5.
+1 uses random number: 2147469841
+This is y: 0.999994
+do case 3
+for next quantum, 3 will reference word 9.
+
+4 references word 5.
+1 uses random number: 438792350
+This is y: 0.204329
+do case 1
+4 references word 6.
+1 uses random number: 1911165193
+This is y: 0.889956
+do case 4
+4 references word 7.
+1 uses random number: 269441500
+This is y: 0.125468
+do case 1
+for next quantum, 4 will reference word 8.
+
+1 references word 5.
+1 uses random number: 2142757034
+This is y: 0.997799
+do case 2
+1 references word 0.
+1 uses random number: 116087764
+This is y: 0.054058
+do case 1
+1 references word 1.
+1 uses random number: 1869470124
+This is y: 0.870540
+do case 2
+for next quantum, 1 will reference word 6.
+
+2 references word 2.
+1 uses random number: 155324914
+This is y: 0.072329
+do case 1
+2 references word 3.
+1 uses random number: 8936987
+This is y: 0.004162
+do case 1
+2 references word 4.
+1 uses random number: 1982275856
+This is y: 0.923069
+do case 3
+for next quantum, 2 will reference word 8.
+
+3 references word 9.
+1 uses random number: 1275373743
+This is y: 0.593892
+do case 1
+3 references word 0.
+1 uses random number: 387346491
+This is y: 0.180372
+do case 1
+3 references word 1.
+1 uses random number: 350322227
+This is y: 0.163131
+do case 1
+for next quantum, 3 will reference word 2.
+
+4 references word 8.
+1 uses random number: 841148365
+This is y: 0.391690
+do case 1
+4 references word 9.
+1 uses random number: 1960709859
+This is y: 0.913027
+do case 4
+4 references word 0.
+1 uses random number: 1760281936
+This is y: 0.819695
+do case 4
+for next quantum, 4 will reference word 1.
+
+1 references word 6.
+1 uses random number: 771151432
+This is y: 0.359095
+do case 1
+1 references word 7.
+1 uses random number: 1186452551
+This is y: 0.552485
+do case 1
+1 references word 8.
+1 uses random number: 1244316437
+This is y: 0.579430
+do case 1
+for next quantum, 1 will reference word 9.
+
+2 references word 8.
+1 uses random number: 971899228
+This is y: 0.452576
+do case 1
+2 references word 9.
+1 uses random number: 1476153275
+This is y: 0.687387
+do case 1
+2 references word 0.
+1 uses random number: 213975407
+This is y: 0.099640
+do case 1
+for next quantum, 2 will reference word 1.
+
+3 references word 2.
+1 uses random number: 1139901474
+This is y: 0.530808
+do case 1
+3 references word 3.
+1 uses random number: 1626276121
+This is y: 0.757294
+do case 2
+3 references word 8.
+1 uses random number: 653468858
+This is y: 0.304295
+do case 1
+for next quantum, 3 will reference word 9.
+
+4 references word 1.
+1 uses random number: 2130794395
+This is y: 0.992228
+do case 4
+4 references word 2.
+1 uses random number: 1239036029
+This is y: 0.576971
+do case 2
+4 references word 7.
+1 uses random number: 1884661237
+This is y: 0.877614
+do case 4
+for next quantum, 4 will reference word 8.
+
+1 references word 9.
+1 uses random number: 1605908235
+This is y: 0.747809
+do case 1
+1 references word 0.
+1 uses random number: 1350573793
+This is y: 0.628910
+do case 1
+1 references word 1.
+1 uses random number: 76065818
+This is y: 0.035421
+do case 1
+for next quantum, 1 will reference word 2.
+
+2 references word 1.
+1 uses random number: 1605894428
+This is y: 0.747803
+do case 1
+2 references word 2.
+1 uses random number: 1789366143
+This is y: 0.833239
+do case 3
+2 references word 6.
+1 uses random number: 1987231011
+This is y: 0.925377
+do case 3
+for next quantum, 2 will reference word 0.
+
+3 references word 9.
+1 uses random number: 1875335928
+This is y: 0.873271
+do case 2
+3 references word 4.
+1 uses random number: 1784639529
+This is y: 0.831038
+do case 2
+3 references word 9.
+1 uses random number: 2103318776
+This is y: 0.979434
+do case 3
+for next quantum, 3 will reference word 3.
+
+4 references word 8.
+1 uses random number: 1597322404
+This is y: 0.743811
+do case 3
+4 references word 2.
+1 uses random number: 1939964443
+This is y: 0.903366
+do case 4
+4 references word 3.
+1 uses random number: 2112255763
+This is y: 0.983596
+do case 4
+for next quantum, 4 will reference word 4.
+
+1 references word 2.
+1 uses random number: 1432114613
+This is y: 0.666880
+do case 1
+1 references word 3.
+1 uses random number: 1067854538
+This is y: 0.497259
+do case 1
+1 references word 4.
+1 uses random number: 352118606
+This is y: 0.163968
+do case 1
+for next quantum, 1 will reference word 5.
+
+2 references word 0.
+1 uses random number: 1782436840
+This is y: 0.830012
+do case 3
+2 references word 4.
+1 uses random number: 1909002904
+This is y: 0.888949
+do case 3
+2 references word 8.
+1 uses random number: 165344818
+This is y: 0.076995
+do case 1
+for next quantum, 2 will reference word 9.
+
+3 references word 3.
+1 uses random number: 1395235128
+This is y: 0.649707
+do case 1
+3 references word 4.
+1 uses random number: 532670688
+This is y: 0.248044
+do case 1
+3 references word 5.
+1 uses random number: 1351797369
+This is y: 0.629480
+do case 1
+for next quantum, 3 will reference word 6.
+
+4 references word 4.
+1 uses random number: 492067917
+This is y: 0.229137
+do case 1
+4 references word 5.
+1 uses random number: 1504569917
+This is y: 0.700620
+do case 3
+4 references word 9.
+1 uses random number: 680466996
+This is y: 0.316867
+do case 1
+for next quantum, 4 will reference word 0.
+
+1 references word 5.
+1 uses random number: 706043324
+This is y: 0.328777
+do case 1
+1 references word 6.
+1 uses random number: 496987743
+This is y: 0.231428
+do case 1
+1 references word 7.
+1 uses random number: 159259470
+This is y: 0.074161
+do case 1
+for next quantum, 1 will reference word 8.
+
+2 references word 9.
+1 uses random number: 1359512183
+This is y: 0.633072
+do case 1
+2 references word 0.
+1 uses random number: 480298490
+This is y: 0.223656
+do case 1
+2 references word 1.
+1 uses random number: 1398295499
+This is y: 0.651132
+do case 1
+for next quantum, 2 will reference word 2.
+
+3 references word 6.
+1 uses random number: 1096689772
+This is y: 0.510686
+do case 1
+3 references word 7.
+1 uses random number: 2086206725
+This is y: 0.971466
+do case 3
+3 references word 1.
+1 uses random number: 601385644
+This is y: 0.280042
+do case 1
+for next quantum, 3 will reference word 2.
+
+4 references word 0.
+1 uses random number: 1172755590
+This is y: 0.546107
+do case 2
+4 references word 5.
+1 uses random number: 1544617505
+This is y: 0.719269
+do case 3
+4 references word 9.
+1 uses random number: 243268139
+This is y: 0.113281
+do case 1
+for next quantum, 4 will reference word 0.
+
+1 references word 8.
+1 uses random number: 1012502954
+This is y: 0.471483
+do case 1
+1 references word 9.
+1 uses random number: 1272469786
+This is y: 0.592540
+do case 1
+1 references word 0.
+1 uses random number: 2027907669
+This is y: 0.944318
+do case 2
+for next quantum, 1 will reference word 5.
+
+2 references word 2.
+1 uses random number: 968338082
+This is y: 0.450918
+do case 1
+2 references word 3.
+1 uses random number: 722308542
+This is y: 0.336351
+do case 1
+2 references word 4.
+1 uses random number: 1820388464
+This is y: 0.847684
+do case 3
+for next quantum, 2 will reference word 8.
+
+3 references word 2.
+1 uses random number: 933110197
+This is y: 0.434513
+do case 1
+3 references word 3.
+1 uses random number: 6939507
+This is y: 0.003231
+do case 1
+3 references word 4.
+1 uses random number: 740759355
+This is y: 0.344943
+do case 1
+for next quantum, 3 will reference word 5.
+
+4 references word 0.
+1 uses random number: 1285228804
+This is y: 0.598481
+do case 2
+4 references word 5.
+1 uses random number: 1789376348
+This is y: 0.833243
+do case 4
+4 references word 6.
+1 uses random number: 502278611
+This is y: 0.233892
+do case 1
+for next quantum, 4 will reference word 7.
+
+1 references word 5.
+1 uses random number: 1450573622
+This is y: 0.675476
+do case 1
+1 references word 6.
+1 uses random number: 1037127828
+This is y: 0.482950
+do case 1
+1 references word 7.
+1 uses random number: 1034949299
+This is y: 0.481936
+do case 1
+for next quantum, 1 will reference word 8.
+
+2 references word 8.
+1 uses random number: 654887343
+This is y: 0.304956
+do case 1
+2 references word 9.
+1 uses random number: 1529195746
+This is y: 0.712087
+do case 1
+2 references word 0.
+1 uses random number: 392035568
+This is y: 0.182556
+do case 1
+for next quantum, 2 will reference word 1.
+
+3 references word 5.
+1 uses random number: 1335354340
+This is y: 0.621823
+do case 1
+3 references word 6.
+1 uses random number: 87755422
+This is y: 0.040864
+do case 1
+3 references word 7.
+1 uses random number: 889023311
+This is y: 0.413984
+do case 1
+for next quantum, 3 will reference word 8.
+
+4 references word 7.
+1 uses random number: 1494613810
+This is y: 0.695984
+do case 3
+4 references word 1.
+1 uses random number: 1447267605
+This is y: 0.673936
+do case 3
+4 references word 5.
+1 uses random number: 1369321801
+This is y: 0.637640
+do case 3
+for next quantum, 4 will reference word 9.
+
+1 references word 8.
+1 uses random number: 745425661
+This is y: 0.347116
+do case 1
+1 references word 9.
+1 uses random number: 396473730
+This is y: 0.184622
+do case 1
+1 references word 0.
+1 uses random number: 1308044878
+This is y: 0.609106
+do case 1
+for next quantum, 1 will reference word 1.
+
+2 references word 1.
+1 uses random number: 1346811305
+This is y: 0.627158
+do case 1
+2 references word 2.
+1 uses random number: 1569229320
+This is y: 0.730729
+do case 1
+2 references word 3.
+1 uses random number: 705178736
+This is y: 0.328374
+do case 1
+for next quantum, 2 will reference word 4.
+
+3 references word 8.
+1 uses random number: 1590079444
+This is y: 0.740438
+do case 1
+3 references word 9.
+1 uses random number: 434248626
+This is y: 0.202213
+do case 1
+3 references word 0.
+1 uses random number: 1977648522
+This is y: 0.920914
+do case 3
+for next quantum, 3 will reference word 4.
+
+4 references word 9.
+1 uses random number: 1470503465
+This is y: 0.684757
+do case 3
+4 references word 3.
+1 uses random number: 1402586708
+This is y: 0.653130
+do case 3
+4 references word 7.
+1 uses random number: 552473416
+This is y: 0.257265
+do case 1
+for next quantum, 4 will reference word 8.
+
+1 references word 1.
+1 uses random number: 1143408282
+This is y: 0.532441
+do case 1
+1 references word 2.
+1 uses random number: 188213258
+This is y: 0.087644
+do case 1
+1 references word 3.
+1 uses random number: 559412924
+This is y: 0.260497
+do case 1
+for next quantum, 1 will reference word 4.
+
+2 references word 4.
+1 uses random number: 1884167637
+This is y: 0.877384
+do case 3
+2 references word 8.
+1 uses random number: 1473442062
+This is y: 0.686125
+do case 1
+2 references word 9.
+1 uses random number: 201305624
+This is y: 0.093740
+do case 1
+for next quantum, 2 will reference word 0.
+
+3 references word 4.
+1 uses random number: 238962600
+This is y: 0.111276
+do case 1
+3 references word 5.
+1 uses random number: 776532036
+This is y: 0.361601
+do case 1
+3 references word 6.
+1 uses random number: 1238433452
+This is y: 0.576691
+do case 1
+for next quantum, 3 will reference word 7.
+
+4 references word 8.
+1 uses random number: 1273911899
+This is y: 0.593211
+do case 2
+4 references word 3.
+1 uses random number: 1431419379
+This is y: 0.666557
+do case 3
+4 references word 7.
+1 uses random number: 620145550
+This is y: 0.288778
+do case 1
+for next quantum, 4 will reference word 8.
+
+1 references word 4.
+1 uses random number: 1665947468
+This is y: 0.775767
+do case 2
+1 references word 9.
+1 uses random number: 619290071
+This is y: 0.288379
+do case 1
+1 references word 0.
+1 uses random number: 707900973
+This is y: 0.329642
+do case 1
+for next quantum, 1 will reference word 1.
+
+2 references word 0.
+1 uses random number: 407487131
+This is y: 0.189751
+do case 1
+2 references word 1.
+1 uses random number: 2113903881
+This is y: 0.984363
+do case 3
+2 references word 5.
+1 uses random number: 7684930
+This is y: 0.003579
+do case 1
+for next quantum, 2 will reference word 6.
+
+3 references word 7.
+1 uses random number: 1776808933
+This is y: 0.827391
+do case 2
+3 references word 2.
+1 uses random number: 711845894
+This is y: 0.331479
+do case 1
+3 references word 3.
+1 uses random number: 404158660
+This is y: 0.188201
+do case 1
+for next quantum, 3 will reference word 4.
+
+4 references word 8.
+1 uses random number: 937370163
+This is y: 0.436497
+do case 1
+4 references word 9.
+1 uses random number: 2058657199
+This is y: 0.958637
+do case 4
+4 references word 0.
+1 uses random number: 1973387981
+This is y: 0.918930
+do case 4
+for next quantum, 4 will reference word 1.
+
+1 references word 1.
+1 uses random number: 1642548899
+This is y: 0.764871
+do case 2
+1 references word 6.
+1 uses random number: 1501252996
+This is y: 0.699075
+do case 1
+1 references word 7.
+1 uses random number: 260152959
+This is y: 0.121143
+do case 1
+for next quantum, 1 will reference word 8.
+
+2 references word 6.
+1 uses random number: 1472713773
+This is y: 0.685786
+do case 1
+2 references word 7.
+1 uses random number: 824272813
+This is y: 0.383832
+do case 1
+2 references word 8.
+1 uses random number: 1662739668
+This is y: 0.774273
+do case 3
+for next quantum, 2 will reference word 2.
+
+3 references word 4.
+1 uses random number: 2025187190
+This is y: 0.943051
+do case 3
+3 references word 8.
+1 uses random number: 1967681095
+This is y: 0.916273
+do case 3
+3 references word 2.
+1 uses random number: 1850952926
+This is y: 0.861917
+do case 2
+for next quantum, 3 will reference word 7.
+
+4 references word 1.
+1 uses random number: 437116466
+This is y: 0.203548
+do case 1
+4 references word 2.
+1 uses random number: 1704365084
+This is y: 0.793657
+do case 4
+4 references word 3.
+1 uses random number: 1176911340
+This is y: 0.548042
+do case 2
+for next quantum, 4 will reference word 8.
+
+1 references word 8.
+1 uses random number: 638422090
+This is y: 0.297288
+do case 1
+1 references word 9.
+1 uses random number: 1943327684
+This is y: 0.904932
+do case 2
+1 references word 4.
+1 uses random number: 1953443376
+This is y: 0.909643
+do case 2
+for next quantum, 1 will reference word 9.
+
+2 references word 2.
+1 uses random number: 1876855542
+This is y: 0.873979
+do case 3
+2 references word 6.
+1 uses random number: 1069755936
+This is y: 0.498144
+do case 1
+2 references word 7.
+1 uses random number: 1237379107
+This is y: 0.576200
+do case 1
+for next quantum, 2 will reference word 8.
+
+3 references word 7.
+1 uses random number: 349517445
+This is y: 0.162757
+do case 1
+3 references word 8.
+1 uses random number: 588219756
+This is y: 0.273911
+do case 1
+3 references word 9.
+1 uses random number: 1856669179
+This is y: 0.864579
+do case 2
+for next quantum, 3 will reference word 4.
+
+4 references word 8.
+1 uses random number: 1057418418
+This is y: 0.492399
+do case 1
+4 references word 9.
+1 uses random number: 995706887
+This is y: 0.463662
+do case 1
+4 references word 0.
+1 uses random number: 1823089412
+This is y: 0.848942
+do case 4
+for next quantum, 4 will reference word 1.
+
+1 references word 9.
+1 uses random number: 1065103348
+This is y: 0.495977
+do case 1
+1 references word 0.
+1 uses random number: 625032172
+This is y: 0.291053
+do case 1
+1 references word 1.
+1 uses random number: 387451659
+This is y: 0.180421
+do case 1
+for next quantum, 1 will reference word 2.
+
+2 references word 8.
+1 uses random number: 1469262009
+This is y: 0.684178
+do case 1
+2 references word 9.
+1 uses random number: 1562402336
+This is y: 0.727550
+do case 1
+2 references word 0.
+1 uses random number: 298625210
+This is y: 0.139058
+do case 1
+for next quantum, 2 will reference word 1.
+
+3 references word 4.
+1 uses random number: 1295166342
+This is y: 0.603109
+do case 1
+3 references word 5.
+1 uses random number: 1057467587
+This is y: 0.492422
+do case 1
+3 references word 6.
+1 uses random number: 1799878206
+This is y: 0.838134
+do case 2
+for next quantum, 3 will reference word 1.
+
+4 references word 1.
+1 uses random number: 1555319301
+This is y: 0.724252
+do case 3
+4 references word 5.
+1 uses random number: 382697713
+This is y: 0.178208
+do case 1
+4 references word 6.
+1 uses random number: 476667372
+This is y: 0.221966
+do case 1
+for next quantum, 4 will reference word 7.
+
+1 references word 2.
+1 uses random number: 1070575321
+This is y: 0.498525
+do case 1
+1 references word 3.
+1 uses random number: 260401255
+This is y: 0.121259
+do case 1
+1 references word 4.
+1 uses random number: 296864819
+This is y: 0.138238
+do case 1
+for next quantum, 1 will reference word 5.
+
+2 references word 1.
+1 uses random number: 774044599
+This is y: 0.360443
+do case 1
+2 references word 2.
+1 uses random number: 697517721
+This is y: 0.324807
+do case 1
+2 references word 3.
+1 uses random number: 2001229904
+This is y: 0.931895
+do case 3
+for next quantum, 2 will reference word 7.
+
+3 references word 1.
+1 uses random number: 1950955939
+This is y: 0.908485
+do case 3
+3 references word 5.
+1 uses random number: 1335939811
+This is y: 0.622095
+do case 1
+3 references word 6.
+1 uses random number: 1797073940
+This is y: 0.836828
+do case 2
+for next quantum, 3 will reference word 1.
+
+4 references word 7.
+1 uses random number: 1756915667
+This is y: 0.818128
+do case 4
+4 references word 8.
+1 uses random number: 1065311705
+This is y: 0.496074
+do case 1
+4 references word 9.
+1 uses random number: 719346228
+This is y: 0.334972
+do case 1
+for next quantum, 4 will reference word 0.
+
+1 references word 5.
+1 uses random number: 846811127
+This is y: 0.394327
+do case 1
+1 references word 6.
+1 uses random number: 1414829150
+This is y: 0.658831
+do case 1
+1 references word 7.
+1 uses random number: 1307565984
+This is y: 0.608883
+do case 1
+for next quantum, 1 will reference word 8.
+
+2 references word 7.
+1 uses random number: 555996658
+This is y: 0.258906
+do case 1
+2 references word 8.
+1 uses random number: 324763920
+This is y: 0.151230
+do case 1
+2 references word 9.
+1 uses random number: 155789224
+This is y: 0.072545
+do case 1
+for next quantum, 2 will reference word 0.
+
+3 references word 1.
+1 uses random number: 231602422
+This is y: 0.107848
+do case 1
+3 references word 2.
+1 uses random number: 1389867269
+This is y: 0.647207
+do case 1
+3 references word 3.
+1 uses random number: 780821396
+This is y: 0.363598
+do case 1
+for next quantum, 3 will reference word 4.
+
+4 references word 0.
+1 uses random number: 619054081
+This is y: 0.288270
+do case 1
+4 references word 1.
+1 uses random number: 711645630
+This is y: 0.331386
+do case 1
+4 references word 2.
+1 uses random number: 195740084
+This is y: 0.091149
+do case 1
+for next quantum, 4 will reference word 3.
+
+1 references word 8.
+1 uses random number: 917679292
+This is y: 0.427328
+do case 1
+1 references word 9.
+1 uses random number: 2006811972
+This is y: 0.934495
+do case 2
+1 references word 4.
+1 uses random number: 1253207672
+This is y: 0.583570
+do case 1
+for next quantum, 1 will reference word 5.
+
+2 references word 0.
+1 uses random number: 570073850
+This is y: 0.265461
+do case 1
+2 references word 1.
+1 uses random number: 1414647625
+This is y: 0.658747
+do case 1
+2 references word 2.
+1 uses random number: 1635905385
+This is y: 0.761778
+do case 3
+for next quantum, 2 will reference word 6.
+
+3 references word 4.
+1 uses random number: 1046741222
+This is y: 0.487427
+do case 1
+3 references word 5.
+1 uses random number: 337739299
+This is y: 0.157272
+do case 1
+3 references word 6.
+1 uses random number: 1896306640
+This is y: 0.883037
+do case 3
+for next quantum, 3 will reference word 0.
+
+4 references word 3.
+1 uses random number: 1343606042
+This is y: 0.625665
+do case 3
+4 references word 7.
+1 uses random number: 1111783898
+This is y: 0.517715
+do case 2
+4 references word 2.
+1 uses random number: 446340713
+This is y: 0.207844
+do case 1
+for next quantum, 4 will reference word 3.
+
+1 references word 5.
+1 uses random number: 1197352298
+This is y: 0.557561
+do case 1
+1 references word 6.
+1 uses random number: 915256190
+This is y: 0.426199
+do case 1
+1 references word 7.
+1 uses random number: 1782280524
+This is y: 0.829939
+do case 2
+for next quantum, 1 will reference word 2.
+
+2 references word 6.
+1 uses random number: 846942590
+This is y: 0.394388
+do case 1
+2 references word 7.
+1 uses random number: 524688209
+This is y: 0.244327
+do case 1
+2 references word 8.
+1 uses random number: 700108581
+This is y: 0.326013
+do case 1
+for next quantum, 2 will reference word 9.
+
+3 references word 0.
+1 uses random number: 1566288819
+This is y: 0.729360
+do case 1
+3 references word 1.
+1 uses random number: 1371499336
+This is y: 0.638654
+do case 1
+3 references word 2.
+1 uses random number: 2114937732
+This is y: 0.984845
+do case 3
+for next quantum, 3 will reference word 6.
+
+4 references word 3.
+1 uses random number: 726371155
+This is y: 0.338243
+do case 1
+4 references word 4.
+1 uses random number: 1927495994
+This is y: 0.897560
+do case 4
+4 references word 5.
+1 uses random number: 292218004
+This is y: 0.136075
+do case 1
+for next quantum, 4 will reference word 6.
+
+1 references word 2.
+1 uses random number: 882160379
+This is y: 0.410788
+do case 1
+1 references word 3.
+1 uses random number: 11614769
+This is y: 0.005409
+do case 1
+1 references word 4.
+1 uses random number: 1682085273
+This is y: 0.783282
+do case 2
+for next quantum, 1 will reference word 9.
+
+2 references word 9.
+1 uses random number: 1662981776
+This is y: 0.774386
+do case 3
+2 references word 3.
+1 uses random number: 630668850
+This is y: 0.293678
+do case 1
+2 references word 4.
+1 uses random number: 246247255
+This is y: 0.114668
+do case 1
+for next quantum, 2 will reference word 5.
+
+3 references word 6.
+1 uses random number: 1858721860
+This is y: 0.865535
+do case 2
+3 references word 1.
+1 uses random number: 1548348142
+This is y: 0.721006
+do case 1
+3 references word 2.
+1 uses random number: 105575579
+This is y: 0.049162
+do case 1
+for next quantum, 3 will reference word 3.
+
+4 references word 6.
+1 uses random number: 964445884
+This is y: 0.449105
+do case 1
+4 references word 7.
+1 uses random number: 2118421993
+This is y: 0.986467
+do case 4
+4 references word 8.
+1 uses random number: 1520223205
+This is y: 0.707909
+do case 3
+for next quantum, 4 will reference word 2.
+
+1 references word 9.
+1 uses random number: 452867621
+This is y: 0.210883
+do case 1
+1 references word 0.
+1 uses random number: 1017679567
+This is y: 0.473894
+do case 1
+1 references word 1.
+1 uses random number: 1857962504
+This is y: 0.865181
+do case 2
+for next quantum, 1 will reference word 6.
+
+2 references word 5.
+1 uses random number: 201690613
+This is y: 0.093920
+do case 1
+2 references word 6.
+1 uses random number: 213801961
+This is y: 0.099559
+do case 1
+2 references word 7.
+1 uses random number: 822262754
+This is y: 0.382896
+do case 1
+for next quantum, 2 will reference word 8.
+
+3 references word 3.
+1 uses random number: 648031326
+This is y: 0.301763
+do case 1
+3 references word 4.
+1 uses random number: 1411154259
+This is y: 0.657120
+do case 1
+3 references word 5.
+1 uses random number: 1737518944
+This is y: 0.809095
+do case 2
+for next quantum, 3 will reference word 0.
+
+4 references word 2.
+1 uses random number: 282828202
+This is y: 0.131702
+do case 1
+4 references word 3.
+1 uses random number: 110613202
+This is y: 0.051508
+do case 1
+4 references word 4.
+1 uses random number: 114723506
+This is y: 0.053422
+do case 1
+for next quantum, 4 will reference word 5.
+
+1 references word 6.
+1 uses random number: 982936784
+This is y: 0.457716
+do case 1
+1 references word 7.
+1 uses random number: 1676902021
+This is y: 0.780868
+do case 2
+1 references word 2.
+1 uses random number: 1486222842
+This is y: 0.692076
+do case 1
+for next quantum, 1 will reference word 3.
+
+2 references word 8.
+1 uses random number: 950390868
+This is y: 0.442560
+do case 1
+2 references word 9.
+1 uses random number: 255789528
+This is y: 0.119111
+do case 1
+2 references word 0.
+1 uses random number: 1266235189
+This is y: 0.589637
+do case 1
+for next quantum, 2 will reference word 1.
+
+3 references word 0.
+1 uses random number: 1242608872
+This is y: 0.578635
+do case 1
+3 references word 1.
+1 uses random number: 1137949908
+This is y: 0.529899
+do case 1
+3 references word 2.
+1 uses random number: 1277849958
+This is y: 0.595045
+do case 1
+for next quantum, 3 will reference word 3.
+
+4 references word 5.
+1 uses random number: 777210498
+This is y: 0.361917
+do case 1
+4 references word 6.
+1 uses random number: 653448036
+This is y: 0.304285
+do case 1
+4 references word 7.
+1 uses random number: 1908518808
+This is y: 0.888723
+do case 4
+for next quantum, 4 will reference word 8.
+
+1 references word 3.
+1 uses random number: 1023457753
+This is y: 0.476585
+do case 1
+1 references word 4.
+1 uses random number: 364686248
+This is y: 0.169820
+do case 1
+1 references word 5.
+1 uses random number: 1309383303
+This is y: 0.609729
+do case 1
+for next quantum, 1 will reference word 6.
+
+2 references word 1.
+1 uses random number: 1129033333
+This is y: 0.525747
+do case 1
+2 references word 2.
+1 uses random number: 1329132133
+This is y: 0.618925
+do case 1
+2 references word 3.
+1 uses random number: 1280321648
+This is y: 0.596196
+do case 1
+for next quantum, 2 will reference word 4.
+
+3 references word 3.
+1 uses random number: 501772890
+This is y: 0.233656
+do case 1
+3 references word 4.
+1 uses random number: 1781999754
+This is y: 0.829808
+do case 2
+3 references word 9.
+1 uses random number: 150517567
+This is y: 0.070090
+do case 1
+for next quantum, 3 will reference word 0.
+
+4 references word 8.
+1 uses random number: 212251746
+This is y: 0.098837
+do case 1
+4 references word 9.
+1 uses random number: 1983690368
+This is y: 0.923728
+do case 4
+4 references word 0.
+1 uses random number: 364319529
+This is y: 0.169650
+do case 1
+for next quantum, 4 will reference word 1.
+
+1 references word 6.
+1 uses random number: 1034514500
+This is y: 0.481733
+do case 1
+1 references word 7.
+1 uses random number: 484238046
+This is y: 0.225491
+do case 1
+1 references word 8.
+1 uses random number: 1775473788
+This is y: 0.826769
+do case 2
+for next quantum, 1 will reference word 3.
+
+2 references word 4.
+1 uses random number: 624549797
+This is y: 0.290829
+do case 1
+2 references word 5.
+1 uses random number: 767066249
+This is y: 0.357193
+do case 1
+2 references word 6.
+1 uses random number: 1886086990
+This is y: 0.878278
+do case 3
+for next quantum, 2 will reference word 0.
+
+3 references word 0.
+1 uses random number: 739273303
+This is y: 0.344251
+do case 1
+3 references word 1.
+1 uses random number: 1750003033
+This is y: 0.814909
+do case 2
+3 references word 6.
+1 uses random number: 1415505363
+This is y: 0.659146
+do case 1
+for next quantum, 3 will reference word 7.
+
+4 references word 1.
+1 uses random number: 78012497
+This is y: 0.036327
+do case 1
+4 references word 2.
+1 uses random number: 552910253
+This is y: 0.257469
+do case 1
+4 references word 3.
+1 uses random number: 1671294892
+This is y: 0.778257
+do case 4
+for next quantum, 4 will reference word 4.
+
+1 references word 3.
+1 uses random number: 1344247686
+This is y: 0.625964
+do case 1
+1 references word 4.
+1 uses random number: 1795519125
+This is y: 0.836104
+do case 2
+1 references word 9.
+1 uses random number: 661761152
+This is y: 0.308157
+do case 1
+for next quantum, 1 will reference word 0.
+
+2 references word 0.
+1 uses random number: 474613996
+This is y: 0.221009
+do case 1
+2 references word 1.
+1 uses random number: 425245975
+This is y: 0.198021
+do case 1
+2 references word 2.
+1 uses random number: 1315209188
+This is y: 0.612442
+do case 1
+for next quantum, 2 will reference word 3.
+
+3 references word 7.
+1 uses random number: 235649157
+This is y: 0.109733
+do case 1
+3 references word 8.
+1 uses random number: 1448703729
+This is y: 0.674605
+do case 1
+3 references word 9.
+1 uses random number: 1679895436
+This is y: 0.782262
+do case 2
+for next quantum, 3 will reference word 4.
+
+4 references word 4.
+1 uses random number: 1545032460
+This is y: 0.719462
+do case 3
+4 references word 8.
+1 uses random number: 430253414
+This is y: 0.200352
+do case 1
+4 references word 9.
+1 uses random number: 861543921
+This is y: 0.401188
+do case 1
+for next quantum, 4 will reference word 0.
+
+1 references word 0.
+1 uses random number: 677870460
+This is y: 0.315658
+do case 1
+1 references word 1.
+1 uses random number: 932026304
+This is y: 0.434009
+do case 1
+1 references word 2.
+1 uses random number: 496060028
+This is y: 0.230996
+do case 1
+for next quantum, 1 will reference word 3.
+
+2 references word 3.
+1 uses random number: 828388027
+This is y: 0.385748
+do case 1
+2 references word 4.
+1 uses random number: 1144278050
+This is y: 0.532846
+do case 1
+2 references word 5.
+1 uses random number: 332266748
+This is y: 0.154724
+do case 1
+for next quantum, 2 will reference word 6.
+
+3 references word 4.
+1 uses random number: 1192707556
+This is y: 0.555398
+do case 1
+3 references word 5.
+1 uses random number: 31308902
+This is y: 0.014579
+do case 1
+3 references word 6.
+1 uses random number: 816504794
+This is y: 0.380215
+do case 1
+for next quantum, 3 will reference word 7.
+
+4 references word 0.
+1 uses random number: 820697697
+This is y: 0.382167
+do case 1
+4 references word 1.
+1 uses random number: 655858699
+This is y: 0.305408
+do case 1
+4 references word 2.
+1 uses random number: 1583571043
+This is y: 0.737408
+do case 3
+for next quantum, 4 will reference word 6.
+
+1 references word 3.
+1 uses random number: 559301039
+This is y: 0.260445
+do case 1
+1 references word 4.
+1 uses random number: 1395132002
+This is y: 0.649659
+do case 1
+1 references word 5.
+1 uses random number: 1186090428
+This is y: 0.552316
+do case 1
+for next quantum, 1 will reference word 6.
+
+2 references word 6.
+1 uses random number: 1974806403
+This is y: 0.919591
+do case 3
+2 references word 0.
+1 uses random number: 1473144500
+This is y: 0.685986
+do case 1
+2 references word 1.
+1 uses random number: 1739000681
+This is y: 0.809785
+do case 3
+for next quantum, 2 will reference word 5.
+
+3 references word 7.
+1 uses random number: 1498617647
+This is y: 0.697848
+do case 1
+3 references word 8.
+1 uses random number: 669908538
+This is y: 0.311950
+do case 1
+3 references word 9.
+1 uses random number: 1387036159
+This is y: 0.645889
+do case 1
+for next quantum, 3 will reference word 0.
+
+4 references word 6.
+1 uses random number: 12895151
+This is y: 0.006005
+do case 1
+4 references word 7.
+1 uses random number: 1144522535
+This is y: 0.532960
+do case 2
+4 references word 2.
+1 uses random number: 1812282134
+This is y: 0.843910
+do case 4
+for next quantum, 4 will reference word 3.
+
+1 references word 6.
+1 uses random number: 1328104339
+This is y: 0.618447
+do case 1
+1 references word 7.
+1 uses random number: 1380171692
+This is y: 0.642693
+do case 1
+1 references word 8.
+1 uses random number: 1113502215
+This is y: 0.518515
+do case 1
+for next quantum, 1 will reference word 9.
+
+2 references word 5.
+1 uses random number: 860516127
+This is y: 0.400709
+do case 1
+2 references word 6.
+1 uses random number: 777720504
+This is y: 0.362154
+do case 1
+2 references word 7.
+1 uses random number: 1543755629
+This is y: 0.718867
+do case 1
+for next quantum, 2 will reference word 8.
+
+3 references word 0.
+1 uses random number: 1722060049
+This is y: 0.801897
+do case 2
+3 references word 5.
+1 uses random number: 1455590964
+This is y: 0.677812
+do case 1
+3 references word 6.
+1 uses random number: 328298285
+This is y: 0.152876
+do case 1
+for next quantum, 3 will reference word 7.
+
+4 references word 3.
+1 uses random number: 70636429
+This is y: 0.032893
+do case 1
+4 references word 4.
+1 uses random number: 136495343
+This is y: 0.063561
+do case 1
+4 references word 5.
+1 uses random number: 1472576335
+This is y: 0.685722
+do case 3
+for next quantum, 4 will reference word 9.
+
+gayeonpark@Gayeons-MacBook-Pro ~/Documents/OS/Lab4/src
+$ 
