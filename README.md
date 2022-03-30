@@ -55,7 +55,7 @@ There are four possible sets of processes (i.e., values for J):
     * The third process has A=.75, B=.125 and C=.125;
     * The fourth process has A=.5, B=.125 and C=.125.
 
-#### Pager Mechanism <a name="mech"></a>
+## Pager Mechanism <a name="mech"></a>
 The pager routine processes each reference and determines if a fault occurs, in which case it makes the page resident (load the desired page into the frame table and continue on). 
 
 If there are no free frames for this faulting page, an already resident page is evicted using replacement algorithm R (specified as one of the command line arguments), the desired page is loaded into the evicted place (now freed up), and the program continues. 
@@ -74,6 +74,8 @@ The frame table (there is only one for the entire system) contains the reverse m
 The system begins with all frames empty, i.e. no pages loaded. So the first reference for each process will definitely be a page fault. 
 If a run has D processes (J=1 has D=1, the others have D=4), then process k (1≤k≤D) begins by referencing word 111*k mod S.
 
+
+## Program Output
 The program prints the input values read from the input file and prints out the following output for each process:
 * Number of page faults and the average residency time. 
     * The latter is defined as the time (measured in memory references) that the page was evicted minus the time it was loaded. 
