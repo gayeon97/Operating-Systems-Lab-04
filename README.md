@@ -135,10 +135,10 @@ The total number of faults is 16 and the overall average residency is 2.6.
     2. If the random number was called r (an integer), 
 ```
         // the statement you want in Java is (note the 1d):
-            double y = r / (Integer.MAX VALUE + 1d)
+        double y = r / (Integer.MAX VALUE + 1d)
             
         // the C/C++ equivalent is (note the 1.0)
-            double y = r / (MAXINT + 1.0)
+        double y = r / (MAXINT + 1.0)
             
         If y<A, 
             do case 1 (it will occur with probability A),
