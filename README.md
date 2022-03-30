@@ -12,6 +12,7 @@ For this program, we are simulating demand paging in Java and seeing how the num
 
 
 The goal is to have a driver generate memory references and then have the demand paging simulator (called "pager" in this lab) decide if each page reference causes a page hit or a page fault. The **exact mechanism** and **expected output** is described in the [Program Specification](#mech) below.
+
 - - - -
 ### Program Layout ###
 For the simplicity of the lab, we are assuming that all memory references are for entities of one fixed size - i.e. modeling a word-oriented machine containing M words. 
@@ -71,7 +72,7 @@ As we know, **each** process has an associated page table, which contains in its
 
 The frame table (there is only one for the entire system) contains the reverse mapping: 
 * The ***i*** th entry specifies the page contained in the ***i*** th frame (or an indication that the frame is empty). 
-* Specifically the ***i*** th entry contains the pair (P, p) if page p of process P is contained in frame i.
+* Specifically the ***i*** th entry contains the pair (P, p) if page ***p*** of process P is contained in frame ***i***.
 
 The system begins with all frames empty, i.e. no pages loaded. So the first reference for each process will definitely be a page fault. 
 If a run has D processes (J=1 has D=1, the others have D=4), then process k (1≤k≤D) begins by referencing word 111*k mod S.
@@ -181,6 +182,10 @@ Type the below instruction into the Terminal to compile the Paging.java program.
 * ProcessInfo.java
 * PageEntry.java.
 This is because Paging.java uses an instance of ProcessInfo class and PageEntry class.
+
+
+***Please ignore the java classes with title including "unclean" or "part", as I have multiple versions of the project that has partially working parts. This was done along the development process to avoid confusion or contaminating the working code. The two java programs that matter are "Banker.java" and "Task.java"".***
+
 - - - - 
 
 ### Compiling
