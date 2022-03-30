@@ -149,7 +149,7 @@ The total number of faults is 16 and the overall average residency is 2.6.
 </details>
 
 - - - -
-### Instructions to run the code ###
+### Instructions to run the code 
 
 To run on crackle1 on cims.nyu.edu server, please first go to crackle1, where the folder "Lab4" is uploaded. Then navigate to the Paging.java file like the following from crackle1:
 * Change directory to Lab4, then change directory to src.
