@@ -55,7 +55,7 @@ There are four possible sets of processes (i.e., values for J):
     * The third process has A=.75, B=.125 and C=.125;
     * The fourth process has A=.5, B=.125 and C=.125.
 
-<a name="mech"></a>
+#### Pager Mechanism <a name="mech"></a>
 The pager routine processes each reference and determines if a fault occurs, in which case it makes the page resident (load the desired page into the frame table and continue on). 
 
 If there are no free frames for this faulting page, an already resident page is evicted using replacement algorithm R (specified as one of the command line arguments), the desired page is loaded into the evicted place (now freed up), and the program continues. 
