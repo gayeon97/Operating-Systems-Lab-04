@@ -9,7 +9,7 @@ Demand Paging Lab
 For this program, we are simulating demand paging in Java and seeing how the number of page faults depends on page size, program size, replacement algorithm, and job mix. 
 
 
-The goal is to have a driver generate memory references and then have the demand paging simulator (called "pager" in this lab) decide if each page reference causes a page hit or a page fault. The exact mechanism and expected output is described in the [Program Specification](#mech) below.
+The goal is to have a driver generate memory references and then have the demand paging simulator (called "pager" in this lab) decide if each page reference causes a page hit or a page fault. The **exact mechanism** and **expected output** is described in the [Program Specification](#mech) below.
 - - - -
 ### Program Layout ###
 For the simplicity of the lab, we are assuming that all memory references are for entities of one fixed size - i.e. modeling a word-oriented machine containing M words. 
@@ -75,7 +75,7 @@ The system begins with all frames empty, i.e. no pages loaded. So the first refe
 If a run has D processes (J=1 has D=1, the others have D=4), then process k (1≤k≤D) begins by referencing word 111*k mod S.
 
 
-## Program Output
+## Expected Program Output
 The program prints the input values read from the input file and prints out the following output for each process:
 * Number of page faults and the average residency time. 
     * The latter is defined as the time (measured in memory references) that the page was evicted minus the time it was loaded. 
