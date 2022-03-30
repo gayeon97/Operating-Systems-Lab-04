@@ -181,7 +181,7 @@ So, two possible invocations of the program are:
 
 Type the below instruction into the Terminal to compile the Paging.java program. When compiling, you have to make sure that you are compiling all the following files: 
 * **Paging.java** (the Pager program that simulates demand paging)
-* **ProcessInfo.java** (instances of ProcessInfo utilized by Paging.java to store each process information)
+* **ProcessInfo.java** (instances of ProcessInfo are utilized by Paging.java to store each process information)
 * **PageEntry.java** (an ArrayList of PageEntry utilized by the Paging.java represents the frame table used for demand paging by the Pager program)
 
 
