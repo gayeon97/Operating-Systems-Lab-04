@@ -129,20 +129,20 @@ The total number of faults is 16 and the overall average residency is 2.6.
     1. Read a random number from the file and divide it by RAND MAX+1 = 2147483648 (RAND MAX is the largest value returned by the random number generator used to produce the file; it happens to equal Integer.MAX VALUE). This gives a quotient y satisfying 0≤y<1. 
     2. If the random number was called r (an integer), 
 ```
-            the statement you want in Java is (note the 1d):
-                double y = r / (Integer.MAX VALUE + 1d)
+        // the statement you want in Java is (note the 1d):
+            double y = r / (Integer.MAX VALUE + 1d)
             
-            The C/C++ equivalent is (note the 1.0)
-                double y = r / (MAXINT + 1.0)
+        // the C/C++ equivalent is (note the 1.0)
+            double y = r / (MAXINT + 1.0)
             
-            If y<A, 
-                do case 1 (it will occur with probability A),
-            else if y<A+B, 
-                do case 2, (it will occur with probability B),
-            else if y<A+B+C, 
-                do case 3 (it will occur with probability C).
-            else /* y>=A+B+C */, 
-                do case 4 (it will occur with probability 1-A-B-C.)
+        If y<A, 
+            do case 1 (it will occur with probability A),
+        else if y<A+B, 
+            do case 2, (it will occur with probability B),
+        else if y<A+B+C, 
+            do case 3 (it will occur with probability C).
+        else /* y>=A+B+C */, 
+            do case 4 (it will occur with probability 1-A-B-C.)
 ```
 </details>
 
