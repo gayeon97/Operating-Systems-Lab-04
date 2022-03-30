@@ -24,7 +24,7 @@ The pager program is invoked with 6 command line arguments, 5 positive integers 
 * N, the number of references for each process.
 * R, the replacement algorithm, FIFO, RANDOM, or LRU.
 
-***Although it wasn't a requirement, I have allowed extra command line argument at the end to produce debugging information optionally. Please refer to the instructions for the code about the verbose flag.*** 
+***Although it wasn't a requirement, I have allowed extra command line argument at the end to produce debugging information optionally. Please refer to the [instructions for the code about the verbose flag](#verbose).*** 
 
 The driver reads all inputs first, then simulates N memory references per program, and produces all output.
 - - - -
@@ -103,38 +103,51 @@ The total number of faults is 16 and the overall average residency is 2.6.
 <details>  
     <summary>Click to Expand</summary>
 
-    1. Despite what some books may say, the % operator in C, C++, and Java is the remainder function, not the mod function. For most (perhaps all) C/C++/Java compilers, (-2)%9 is -2; whereas (-2) mod 9 = 7. So to calculate (w-5) mod S above, write (w-5+S)%S.
-    2. The big issue in this lab is the REplacement of pages. The placement question does arise early in the run when there are multiple free frames. The highest numbered free frame is chosen so that I can get the same answers and debugging output as those provided by the professor. 
-    3. Since random numbers are involved, the random numbers are chosen in the same order. Here is a non-obvious example. 
-        1. In the beginning of the program, the referenced word for each job is set to be 111*k as described in the lab. Now to simulate q (quantum) references for each job, following code was suggested by the professor and is used in the program:
-    ```
-            for (int ref=0; ref<q; ref++) {
-                simulate this reference for this process
-                calculate the next reference for this process
-            }
-    ```
-        2. One effect is that after simulating the qth reference will the first reference for the next quantum be calculated. Hence, the random number file may be read before switching to the next process.
-        3. Specifically, at the beginning of the run the first reference is given for process 1, namely 111*1=111 mod S. Now q references (the first to address 111 mod S) are simulated and the next q addresses are calculated.
-        4. These calculations use one or two random numbers for each reference (two if a random reference occurs). So, the random number file is read once or twice for the last reference (q+1), even though the pager program will be context switching before simulating this reference. 
-    4. When calculating the next word to reference, there are four cases with probability A, B, C, and 1-A-B-C.
-        1. Read a random number from the file and divide it by RAND MAX+1 = 2147483648 (RAND MAX is the largest value returned by the random number generator used to produce the file; it happens to equal Integer.MAX VALUE). This gives a quotient y satisfying 0≤y<1. 
-        2. If the random number was called r (an integer), 
+    <ol type="1">
+        <li> Despite what some books may say, the % operator in C, C++,and Java is the remainder function, not the mod function. For most (perhaps all) C/C++/Java compilers, (-2)%9 is -2; whereas (-2) mod 9 = 7. So to calculate (w-5) mod S above, write (w-5+S)%S.
+        </li>
+        <li> The big issue in this lab is the REplacement of pages. The placement question does arise early in the run when there are multiple free frames. The highest numbered free frame is chosen so that I can get the same answers and debugging output as those provided by the professor. 
+        </li>
+        <li> Since random numbers are involved, the random numbers are chosen in the same order. Here is a non-obvious example. 
+            <ol>
+                <li> In the beginning of the program, the referenced word for each job is set to be 111*k as described in the lab. Now to simulate q (quantum) references for each job, following code was suggested by the professor and is used in the program:
+                </li>
 ```
-            the statement you want in Java is (note the 1d):
-                double y = r / (Integer.MAX VALUE + 1d)
-            
-            The C/C++ equivalent is (note the 1.0)
-                double y = r / (MAXINT + 1.0)
-            
-            If y<A, 
-                do case 1 (it will occur with probability A),
-            else if y<A+B, 
-                do case 2, (it will occur with probability B),
-            else if y<A+B+C, 
-                do case 3 (it will occur with probability C).
-            else /* y>=A+B+C */, 
-                do case 4 (it will occur with probability 1-A-B-C.)
+                for (int ref=0; ref<q; ref++) {
+                    simulate this reference for this process
+                    calculate the next reference for this process
+                }
 ```
+                <li> One effect is that after simulating the qth reference will the first reference for the next quantum be calculated. Hence, the random number file may be read before switching to the next process.
+                </li>
+                <li> Specifically, at the beginning of the run the first reference is given for process 1, namely 111*1=111 mod S. Now q references (the first to address 111 mod S) are simulated and the next q addresses are calculated.
+                </li>
+                <li> These calculations use one or two random numbers for each reference (two if a random reference occurs). So, the random number file is read once or twice for the last reference (q+1), even though the pager program will be context switching before simulating this reference. 
+                </li>
+            </ol>
+        </li>
+        <li> When calculating the next word to reference, there are four cases with probability A, B, C, and 1-A-B-C.
+            <ol>
+                <li> Read a random number from the file and divide it by RAND MAX+1 = 2147483648 (RAND MAX is the largest value returned by the random number generator used to produce the file; it happens to equal Integer.MAX VALUE). This gives a quotient y satisfying 0≤y<1. </li>
+                <li> If the random number was called r (an integer),</li>
+```
+                // the statement you want in Java is (note the 1d):
+                    double y = r / (Integer.MAX VALUE + 1d)
+                
+                // The C/C++ equivalent is (note the 1.0)
+                    double y = r / (MAXINT + 1.0)
+                
+                if y<A, 
+                    do case 1 (it will occur with probability A),
+                else if y<A+B, 
+                    do case 2, (it will occur with probability B),
+                else if y<A+B+C, 
+                    do case 3 (it will occur with probability C).
+                else /* y>=A+B+C */, 
+                    do case 4 (it will occur with probability 1-A-B-C.)
+```
+        </li>
+    </ol>
 </details>
 
 - - - -
@@ -146,6 +159,7 @@ Inside of the "src" folder, Paging.java file is located.
 
 As mentioned above, execute the program using 6 command line arguments: 5 positive integers followed by a string, with a space between each of them.  The program prints output to the screen as System.out in Java.
 
+<a name="verbose"></a>
 The program accepts an optional integer value for verbose flag. When the verbose flag is given, the program produce detailed output that's helpful for debugging. 
 
 To get the corresponding debugging or “show random” output, enter the integer value after the string. It can be one of the following values:
@@ -203,15 +217,18 @@ javac Paging.java ProcessInfo.java PageEntry.java
 ### Running
 To execute the code with verbose flag of 0, type following:
 ```
-java Paging 10 10 20 1 10 lru 0     //will yield the same output as 6 command line arguments
+//will yield the same output as 6 command line arguments
+java Paging 10 10 20 1 10 lru 0     
 ```
 ### Running
 To execute the code with verbose flag of 1, type following:
 ```
-java Paging 10 10 20 1 10 lru 1   //these 7 command line arguments will yield debug output
+//these 7 command line arguments will yield debug output
+java Paging 10 10 20 1 10 lru 1   
 ```
 ### Running
 To execute the code with verbose flag of 11, type following:
 ```
-java Paging 10 10 20 1 10 lru 11   //these 7 command line arguments will yield "show-random" output
+//these 7 command line arguments will yield "show-random" output
+java Paging 10 10 20 1 10 lru 11   
 ```
